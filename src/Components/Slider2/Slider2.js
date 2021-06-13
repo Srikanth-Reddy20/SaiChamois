@@ -10,7 +10,7 @@ function Slider2() {
 <Container className="slider2-container p-0" fluid>
    <div className="d-md-flex">
     <Col className="slider2-image">
-        <div className="bx">
+    <div className="bx">
       <div className="bx1">
           Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
           Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
