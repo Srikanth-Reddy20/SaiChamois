@@ -1,0 +1,12 @@
+.back-green{
+    background-color: green;
+}
+.natural-para{
+    font-size: 28px;
+    text-align: center;
+    padding: 8% 21%;
+    color: white;
+}
+.natural-container{
+    background: url("./natural.jpeg");
+}

@@ -1,0 +1,28 @@
+.header{
+    color: blue;
+}
+.contact-icon{
+    color: green;
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+.footer-container{
+    padding: 46px 0px;
+}
+.input-field{
+    margin-bottom: 8px;
+}
+.form-but{
+    float: right;
+}
+.footer-text p{
+ margin-top:1rem;
+}
+.footer-back{
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 43% 100%, 50% 86%, 50% 52%, 38% 25%);
+    background: url("./Leather-3.jpg");
+    background-size: cover;
+}
+.form{
+    width: 65%;
+}
