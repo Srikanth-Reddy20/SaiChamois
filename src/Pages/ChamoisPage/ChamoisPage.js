@@ -5,6 +5,7 @@ import Slider2 from '../../Components/Slider2/Slider2'
 import Natural from '../../Components/Natural/Natural'
 import Leathertypes from '../../Components/Leathertypes/Leathertypes'
 import Footer from '../../Components/Footer/Footer'
+import Stepper from '../../Components/Stepper/Stepper'
 
 function ChamoisPage() {
     return (
@@ -12,6 +13,7 @@ function ChamoisPage() {
             <Header2 />
             <Slider2 />
             <Natural />
+            <Stepper />
             <Leathertypes />
             <Products />
             <Footer />

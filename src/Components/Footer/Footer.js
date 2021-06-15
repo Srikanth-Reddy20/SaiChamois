@@ -8,10 +8,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function footer() {
     return (
         <>
-          <Container className="footer-container footer-back my-5" fluid>
+          <div className="footer-container" fluid>
             <div className="d-flex justify-content-center">
             
-                <div className="d-flex justify-content-end col-6"> 
+                <div className="d-flex justify-content-end col-5"> 
                 <div>  
                 <div className="d-flex align-content-center align-items-center 
                 footer-text"><FaMapMarkerAlt  className="contact-icon"/>
@@ -36,7 +36,7 @@ function footer() {
                  </div>
               </div>  
             </div>
-                  <div className="d-flex justify-content-center col-6">
+                  <div className="d-flex justify-content-center footer-back col-7">
                   <Form className="form">
                     <Form.Group controlId="formBasicEmail">
                       <Form.Control type="text" placeholder="Full Name" className="input-field"/>
@@ -48,7 +48,7 @@ function footer() {
                   </Form>
                   </div>
             </div>
-          </Container>          
+          </div>          
         </>
     )
 }

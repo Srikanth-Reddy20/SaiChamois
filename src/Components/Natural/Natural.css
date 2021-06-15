@@ -2,11 +2,14 @@
     background-color: green;
 }
 .natural-para{
-    font-size: 28px;
+    font-size: 24px;
     text-align: center;
-    padding: 8% 21%;
     color: white;
+    margin-bottom: 0px;
+    padding: 70px 25%;
 }
 .natural-container{
-    background: url("./natural.jpeg");
+    background: url("./natural.jpeg");background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
 }
