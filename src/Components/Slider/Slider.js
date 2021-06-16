@@ -12,14 +12,14 @@ function Slider() {
     <Col className="bg1 slider-row d-flex justify-content-center 
     align-content-center align-items-center">
       <div>
-          <img src={upperimage} alt="upper-image" className="slide-icon" />
+          <img src={upperimage} alt="upper-image" className="slide-icon1" />
       </div>
           
     </Col>
     <Col className="bg2 slider-row d-flex justify-content-center 
     align-content-center align-items-center">
     <div>
-        <img src={upperimage} alt="upper-image" className="slide-icon" />
+        <img src={upperimage} alt="upper-image" className="slide-icon2" />
     </div> 
     </Col>
   </div>
