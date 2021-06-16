@@ -10,7 +10,7 @@ main {
   margin: auto;
 }
 
-p {
+.stepper {
   font-size: 1em;
   line-height: 1.75em;
   border-top: 3px solid;
@@ -23,7 +23,7 @@ p {
   position: relative;
   color: #34435E;
 }
-p::before {
+.stepper::before {
   content: counter(section);
   position: absolute;
   border-radius: 50%;
@@ -37,30 +37,30 @@ p::before {
   font-size: 1em;
 }
 
-p:nth-child(odd) {
+.stepper:nth-child(odd) {
   border-right: 3px solid;
   padding-left: 0;
 }
-p:nth-child(odd)::before {
+.stepper:nth-child(odd)::before {
   left: 100%; 
   margin-left: -20px;
 }
 
-p:nth-child(even) {
+.stepper:nth-child(even) {
   border-left: 3px solid;
   padding-right: 0;
 }
-p:nth-child(even)::before {
+.stepper:nth-child(even)::before {
   right: 100%; 
   margin-right: -20px;
 }
 
-p:first-child {
+.stepper:first-child {
   border-top: 0;
   border-top-right-radius:0;
   border-top-left-radius:0;
 }
-p:last-child {
+.stepper:last-child {
   border-bottom-right-radius:0;
   border-bottom-left-radius:0;
 }
