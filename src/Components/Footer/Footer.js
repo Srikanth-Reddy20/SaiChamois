@@ -11,7 +11,7 @@ function footer() {
           <div className="footer-container" fluid>
             <div className="d-flex justify-content-center">
             
-                <div className="d-flex justify-content-end col-5"> 
+                <div className="d-flex justify-content-end col-5 address"> 
                 <div>  
                 <div className="d-flex align-content-center align-items-center 
                 footer-text"><FaMapMarkerAlt  className="contact-icon"/>
