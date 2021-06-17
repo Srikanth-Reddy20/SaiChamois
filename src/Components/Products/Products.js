@@ -1,21 +1,39 @@
 import React from 'react'
 import { Container, Row, Col, Button, Carousel} from 'react-bootstrap';
 import back from './Design.jpg';
-import './Products.css';
-
+// import $ from 'js/jquery.hislide.js';
 
 function Products() {
     return (
-
+        // $('.slide').hiSlide();
         <>
-        
-<div className="data-slide">
+        {/* <div className="body">
+            <div className="slide hi-slide">
+                <div className="hi-prev"></div>
+                <div className="hi-next"></div>
+                 <ListGroup as="ul" className="ul">
+                    <ListGroup.Item as="li" active className="li">
+                        <img src={back} alt="First slide"/>
+                    </ListGroup.Item>
+                    <ListGroup.Item as="li" className="li">
+                        <img src={back} alt="First slide"/>
+                        </ListGroup.Item>
+                    <ListGroup.Item as="li" disabled className="li">
+                    <img src={back} alt="First slide"/>
+                    </ListGroup.Item>
+                    <ListGroup.Item as="li" className="li">
+                    <img src={back} alt="First slide"/>
+                        </ListGroup.Item>
+                    </ListGroup>
+            </div>
+            </div> */}
+
             <Carousel>
   <Carousel.Item>
-  <img
+    <img
       className="d-block w-100"
       src={back}
-      alt="Third slide"
+      alt="First slide"
     />
     <Carousel.Caption>
       <h3>Deer Wallets</h3>
@@ -53,7 +71,6 @@ function Products() {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
-</div>
         </>
     )
 }

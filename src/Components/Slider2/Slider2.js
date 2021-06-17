@@ -14,7 +14,7 @@ function Slider2() {
       <div className="bx1">
           Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
           Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-         
+         <div className="triangle-bottomright"></div>
       </div>
       <div className="bx2">
          <img src={upperimage} alt="upper-image" className="slide2-icon" />

@@ -1,7 +1,4 @@
 
-
-
-
 .main {
   min-width: 300px;
   max-width: 500px;
@@ -11,10 +8,10 @@
 .stepper {
   font-size: 1em;
   line-height: 1.75em;
-  border-top: 10px solid;
-  border-image: linear-gradient(to right, #D8D8D6 0%, #D8D8D6 100%);
+  border-top: 15px solid;
+  border-image: linear-gradient(to right, #000000 0%, #000000 100%);
   border-image-slice: 1;
-  border-width: 10px;
+  border-width: 15px;
   margin: 0;
   padding: 40px;
   counter-increment: section;
@@ -36,8 +33,8 @@
 }
 
 .stepper:nth-child(odd) {
-  border-right: 10px solid;
-  padding-left: 0;
+  border-left: 15px solid;
+  padding-right: 0;
 }
 .stepper:nth-child(odd)::before {
   left: 100%; 
@@ -45,8 +42,8 @@
 }
 
 .stepper:nth-child(even) {
-  border-left: 10px solid;
-  padding-right: 0;
+  border-right: 15px solid;
+  padding-left: 0;
 }
 .stepper:nth-child(even)::before {
   right: 100%; 
@@ -66,5 +63,9 @@
   background: url("./Leather-2.jpg");
   height: 80vh;
   background-size: cover;
-  opacity: 0.2;
+  opacity: 0.1;
+}
+.c{
+  border-left: none !important;
+  border-right: none !important;
 }

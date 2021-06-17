@@ -2,46 +2,51 @@ import React from 'react'
 import './Carousel.css';
 import ImageSlider from '../ImageSlider'
 import slide from './Leather-1.jpg';
+import deer from './Deer.jpeg'
+import { Container } from 'react-bootstrap';
 
 
 function Carousel() {
  const LARGE_IMAGES = [
         {
           id: 1,
-          src: {slide},
+          src: "/assets/images/Leather-1.jpg",
           alt: "Placeholder image",
         },
         {
           id: 2,
-          src: {slide},
+          src: "/assets/images/Leather-1.jpg",
           alt: "Placeholder image",
         },
         {
           id: 3,
-          src: {slide},
+          src: "/assets/images/Leather-1.jpg",
           alt: "Placeholder image",
         },
         {
           id: 4,
-          src: {slide},
+          src: "/assets/images/Leather-1.jpg",
           alt: "Placeholder image",
         },
         {
           id: 5,
-          src: {slide},
+          src: "/assets/images/Leather-1.jpg",
           alt: "Placeholder image",
         },
         {
           id: 6,
-          src: {slide},
+          src: "/assets/images/Leather-1.jpg",
           alt: "Placeholder image",
         },
       ];
     return (
         <>
+        <Container className="deer-text">   </Container>
       <div className='carousel-image'>
         <ImageSlider images={LARGE_IMAGES} />
+        
       </div> 
+  
         </>
     )
 }
