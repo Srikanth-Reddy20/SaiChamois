@@ -6,6 +6,7 @@ import Natural from '../../Components/Natural/Natural'
 import Leathertypes from '../../Components/Leathertypes/Leathertypes'
 import Footer from '../../Components/Footer/Footer'
 import Stepper from '../../Components/Stepper/Stepper'
+import Carousel from '../../Components/Carousel/Carousel'
 
 function ChamoisPage() {
     return (
@@ -15,6 +16,7 @@ function ChamoisPage() {
             <Natural />
             <Stepper />
             <Leathertypes />
+            <Carousel />
             <Products />
             <Footer />
         </>

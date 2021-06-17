@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Button, Carousel} from 'react-bootstrap';
 import back from './Design.jpg';
+import './Products.css';
 // import $ from 'js/jquery.hislide.js';
 
 function Products() {
@@ -27,13 +28,13 @@ function Products() {
                     </ListGroup>
             </div>
             </div> */}
-
+<div className="data-slide">
             <Carousel>
   <Carousel.Item>
-    <img
+  <img
       className="d-block w-100"
       src={back}
-      alt="First slide"
+      alt="Third slide"
     />
     <Carousel.Caption>
       <h3>Deer Wallets</h3>
@@ -71,6 +72,7 @@ function Products() {
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
+</div>
         </>
     )
 }
