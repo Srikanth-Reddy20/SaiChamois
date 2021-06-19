@@ -3,4 +3,26 @@
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.products-heading{
+    color:white;
+}
+.products-content{
+    color: white;
+
+}
+.products-slide{
+    padding-top: 400px;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+}
+.carousel-indicators{
+    display: none;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 50%;
+    top: 333px;
 }
