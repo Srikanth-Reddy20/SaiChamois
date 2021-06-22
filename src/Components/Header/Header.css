@@ -6,9 +6,11 @@
     background: rgb(255, 255, 255);
     overflow: hidden;
     z-index: 1;
+    inset: 0 0 0 0;
 }
 .top-bar{
     text-align: center;
+    background-color: white;
 }
 .icon{
     font-size: 40px;
@@ -18,9 +20,51 @@
 }
 .menu-col1{
     background-color: #F4F4F4;
-    height: 90vh;
+    height: 100vh;
 }
 .menu-col2{
     background-color: #F0F0F0;
-    height: 90vh;
+    height: 100vh;
+    position: relative;
+}
+.menu-image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 12%;
+    margin-top: 15%;
+}
+.menu-imagediv{
+    text-align: center;
+}
+.header-leftsquare{
+    position: absolute;
+    width: 115px; 
+    height: 125px; 
+    background: #F4F4F4;
+    right: 0;
+    top: 220px;
+    left: 90px;
+}
+.header-rightsquare{
+    position: absolute;
+    width: 150px;
+    height: 190px;
+    background: #F4F4F4;
+    top: 310px;
+    left: 400px;
+}
+.menu-label{
+    margin-top: 32%;
+    text-align: left;
+    margin-left: 37%;
+}
+.top-bar-fixed{
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+    left: 0;
+    right: 0;
 }

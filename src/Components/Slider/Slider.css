@@ -22,10 +22,10 @@
 .slide-icon1{
   width: 100px;
   height: 100px;
-  animation: spin  infinite 5s linear;
+  animation: spin-1  infinite 5s linear;
 }
 .slide-icon2{
   width: 100px;
   height: 100px;
-  animation: spin  infinite 5s linear;
+  animation: spin-2  infinite 5s linear;
 }
