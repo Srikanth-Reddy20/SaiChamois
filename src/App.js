@@ -10,6 +10,7 @@ import Slider2 from './Components/Slider2/Slider2';
 import Products from './Components/Products/Products';
 import Leathertypes from './Components/Leathertypes/Leathertypes';
 import ChamoisPage from './Pages/ChamoisPage/ChamoisPage';
+import Landingsection1 from './Components/Landing/Landingsection1';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
 <BrowserRouter>
   <Switch>
     <Route path='/' component={LandingPage} exact />
-    <Route path='/2' component={ChamoisPage} />
+    <Route path='/Chamois' component={ChamoisPage} />
   </Switch>
 
 </BrowserRouter>
