@@ -1,24 +1,24 @@
 import React from 'react'
-import Products from '../../Components/Products/Products'
-import Header from '../../Components/Header/Header'
-import Slider2 from '../../Components/Slider2/Slider2'
-import Natural from '../../Components/Natural/Natural'
-import Leathertypes from '../../Components/Leathertypes/Leathertypes'
-import Footer from '../../Components/Footer/Footer'
-import Stepper from '../../Components/Stepper/Stepper'
-import Carousel from '../../Components/Carousel/Carousel'
+import Leathersection1 from '../../Components/Leather/Leathersection1'
+import Leathersection2 from '../../Components/Leather/Leathersection2'
+import Leathersection3 from '../../Components/Leather/Leathersection3'
+import Leathersection4 from '../../Components/Leather/Leathersection4'
+import Leathersection5 from '../../Components/Leather/Leathersection5'
+import Leathersection6 from '../../Components/Leather/Leathersection6'
+import ReactPageScroller from 'react-page-scroller';
 
 function ChamoisPage() {
     return (
         <>
-            <Header />
-            <Slider2 />
-            <Natural />
-            <Stepper />
-            <Leathertypes />
-            <Carousel />
-            <Products />
-            <Footer />
+        <ReactPageScroller>
+            <Leathersection1 />
+            <Leathersection2 />
+            <Leathersection3 />
+            <Leathersection4 />
+            <Leathersection5 />
+            <Leathersection6 />
+        </ReactPageScroller>
+
         </>
     )
 }

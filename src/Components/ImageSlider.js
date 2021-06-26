@@ -6,7 +6,7 @@ import "./ImageSlider.css";
 
 const NextArrow = ({ onClick }) => {
   return (
-    <div className="nextArrow" onClick={onClick}>
+    <div className="nextArrow Arrow-bg" onClick={onClick}>
       <BsChevronRight />
     </div>
   );
@@ -14,7 +14,7 @@ const NextArrow = ({ onClick }) => {
 
 const PrevArrow = ({ onClick }) => {
   return (
-    <div className="prevArrow" onClick={onClick}>
+    <div className="prevArrow Arrow-bg" onClick={onClick}>
       <BsChevronLeft />
     </div>
   );
@@ -58,11 +58,12 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
       return (
         <div
           className={idx === imageIndex ? "activeSlide" : "slidetype"}
-          key={image.id}
-        >
+          key={image.id}>
+          <div className="image-head">{image.head}</div>
           <div className="slideWrapper">
             {image.code ? image.code : <img src={image.src} alt={image.alt}  className="carousel-img" />}
           </div>
+          <div className="image-content">{image.content}</div>
         </div>
       );
     }

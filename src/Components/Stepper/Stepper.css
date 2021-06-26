@@ -60,7 +60,9 @@
 }
 .stepper-content{
   width: 80%;
-  color: #000;
+  color: #000 !important;
+  z-index: 2;
+  opacity: 1 !important;
 }
 .stepper-img{
   width: 100px;

@@ -18,7 +18,7 @@ function App() {
 <BrowserRouter>
   <Switch>
     <Route path='/' component={LandingPage} exact />
-    <Route path='/Chamois' component={ChamoisPage} />
+    <Route path='/2' component={ChamoisPage} />
   </Switch>
 
 </BrowserRouter>
