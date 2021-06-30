@@ -20,6 +20,7 @@ function Slider2() {
          <img src={upperimage} alt="upper-image" className="slide2-icon" />
       </div>
       </div>
+      <div className="triangle-white"></div>
     </Col>
    </div>
 </Container>

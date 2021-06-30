@@ -7,8 +7,8 @@ const [showPathContent,setShowPathContent]=useState('');
 
     return (
         <>
-          <div className="timeline-back">
-              <div className="main align-content-center align-items-center">
+          <div className="timeline-back align-content-center align-items-center">
+              <div className="main">
                   <div className="stepper c">
                   </div>
                   <div className="stepper d-flex" onMouseLeave={()=>setShowPathContent('')} onClick={()=>setShowPathContent('1')} onMouseEnter={()=>setShowPathContent('1')}>

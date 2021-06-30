@@ -13,7 +13,7 @@
   border-image-slice: 1;
   border-width: 15px;
   margin: 0;
-  padding: 20px;
+  padding: 47px;
 
   position: relative;
   color: #34435E;
@@ -49,9 +49,9 @@
 }
 .timeline-back{
   background: url("./Leather-2.jpg");
-  height: 60vh;
+  height: 100vh;
   background-size: cover;
-  opacity: 0.1;
+  filter: grayscale(100%);
 }
 
 .c{
@@ -62,7 +62,6 @@
   width: 80%;
   color: #000 !important;
   z-index: 2;
-  opacity: 1 !important;
 }
 .stepper-img{
   width: 100px;

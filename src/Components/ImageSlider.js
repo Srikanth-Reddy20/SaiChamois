@@ -59,7 +59,7 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
         <div
           className={idx === imageIndex ? "activeSlide" : "slidetype"}
           key={image.id}>
-          <div className="image-head">{image.head}</div>
+          <div className="image-head-div"><div className="image-heading">{image.head}</div></div>
           <div className="slideWrapper">
             {image.code ? image.code : <img src={image.src} alt={image.alt}  className="carousel-img" />}
           </div>
