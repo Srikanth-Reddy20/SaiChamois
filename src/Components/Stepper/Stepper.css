@@ -48,10 +48,9 @@
   border-bottom-left-radius:0;
 }
 .timeline-back{
-  background: url("./Leather-2.jpg");
+  background-image: url("./Leather-2.jpg");
   height: 100vh;
   background-size: cover;
-  filter: grayscale(100%);
 }
 
 .c{

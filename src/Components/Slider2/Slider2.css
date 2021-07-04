@@ -1,6 +1,6 @@
 .slider2-image{
     /* clip-path: polygon(0% 0%, 100% 0%, 55% 100%, 0% 100%); */
-    background: url("./Leather-1.jpg");
+    background: url("./Leather-1.jpeg");
     height: 90vh;
     background-size: cover;
     position: relative;
@@ -46,11 +46,11 @@
     border-bottom: 125px solid #eaeaea; 
     border-left: 150px solid transparent; 
  }
- .triangle-white{
+ /* .triangle-white{
     position: absolute;
     right: 0;
     width: 0;
     height: 0;
     border-bottom: 591px solid white;
     border-left: 570px solid transparent;
- }
+ } */
