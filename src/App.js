@@ -19,8 +19,8 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route path="/" component={LandingPage} exact />
-          <Route path="/2" component={ChamoisPage} />
-          <Route path="/3" component={LeatherPage} />
+          <Route path="/Chamois" component={ChamoisPage} />
+          <Route path="/Leather" component={LeatherPage} />
         </Switch>
       </BrowserRouter>
     </>

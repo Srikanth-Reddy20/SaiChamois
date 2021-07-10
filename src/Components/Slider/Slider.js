@@ -12,7 +12,7 @@ function Slider() {
               <Col className="bg1 slider-row d-flex justify-content-center 
               align-content-center align-items-center">
                 <div>
-                  <Link to="/2">
+                  <Link to="/Chamois">
                     <img src={upperimage} alt="upper-image" className="slide-icon1" />
                     </Link>
                 </div>
@@ -21,7 +21,7 @@ function Slider() {
               <Col className="bg2 slider-row d-flex justify-content-center 
               align-content-center align-items-center">
               <div>
-              <Link to="/3">
+              <Link to="/Leather">
                   <img src={upperimage} alt="upper-image" className="slide-icon2" />
                   </Link>
               </div> 
