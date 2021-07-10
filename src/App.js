@@ -11,6 +11,7 @@ import Products from "./Components/Products/Products";
 import Leathertypes from "./Components/Leathertypes/Leathertypes";
 import ChamoisPage from "./Pages/ChamoisPage/ChamoisPage";
 import Landingsection1 from "./Components/Landing/Landingsection1";
+import LeatherPage from "./Pages/LeatherPage/LeatherPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Switch>
           <Route path="/" component={LandingPage} exact />
           <Route path="/2" component={ChamoisPage} />
+          <Route path="/3" component={LeatherPage} />
         </Switch>
       </BrowserRouter>
     </>

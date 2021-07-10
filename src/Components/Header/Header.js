@@ -13,7 +13,7 @@ function Header() {
     return (
         <>
         <Container className={navClass} fluid>
-          <Row>
+          <Row className="header-row">
             <Col className="header-col"><FcCloseUpMode  className="icon"/></Col>
             <Col className="header-col">{!menuShow ?<FaGripLines  className="icon" onClick={()=>setMenuShow(true)} />:
             <FaTimes  className="icon" onClick={()=>setMenuShow(false)}/>} </Col>

@@ -56,6 +56,18 @@ color: white ;
   text-align: justify;
   padding-top: 10%;
 }
+
+
+@media only screen and (max-width:1023px){
+  .image-content{
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    position: relative;
+    padding-top: 5%;
+    left: 10%;
+  }
+}
 .slidetype .image-content{
   color: white ;
   }
