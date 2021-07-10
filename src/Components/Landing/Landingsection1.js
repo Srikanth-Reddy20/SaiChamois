@@ -3,12 +3,11 @@ import Slider from '../Slider/Slider'
 
 import Header from '../Header/Header'
 
-function Landingsection1() {
+function Landingsection1(props) {
     return (
-        <>
-            <Header />
+        <div style={props.style}>
             <Slider />
-        </>
+        </div>
     )
 }
 
