@@ -57,7 +57,7 @@ function Carousel2() {
       ];
     return (
         <>
-      <div className='carousel-image' id="leathertypes">
+      <div className='carousel-image' id="chamoistypes">
         <ImageSlider2 images={LARGE_IMAGES} />
         
       </div> 

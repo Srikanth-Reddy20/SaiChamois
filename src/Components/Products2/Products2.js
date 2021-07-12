@@ -1,13 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Button, Carousel } from "react-bootstrap";
 import back from "./Design.jpg";
-// import $ from 'js/jquery.hislide.js';
-import "./Products.css";
+import "./Products2.css";
 
-function Products() {
-  return (
-    <>
-      <div className="data-slide" id="products">
+function Products2() {
+    return (
+        <>
+            <div className="data-slide" id="products2">
         <Carousel className="products-slide">
           <Carousel.Item>
             <h3 className="products-heading">Deer Wallets</h3>
@@ -32,8 +31,8 @@ function Products() {
           </Carousel.Item>
         </Carousel>
       </div>
-    </>
-  );
+        </>
+    )
 }
 
-export default Products;
+export default Products2

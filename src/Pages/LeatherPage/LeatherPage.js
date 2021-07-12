@@ -1,5 +1,5 @@
 import React from 'react'
-import Header2 from '../../Components/Header/Header'
+import Header2 from '../../Components/Header2/Header2'
 import Leathersection1 from '../../Components/Leather/Leathersection1'
 import Leathersection2 from '../../Components/Leather/Leathersection2'
 import Leathersection3 from '../../Components/Leather/Leathersection3'
@@ -11,7 +11,7 @@ function LeatherPage() {
     return (
         <div>
         <Header2 />
-        <div style ={{scrollSnapType: "y mandatory", height:"100vh", overflow:"scroll"}}>
+        <div style ={{scrollSnapType: "y mandatory", height:"90vh", overflow:"auto"}}>
             <Leathersection1 style={{
                 scrollSnapAlign: "start",
                 scrollSnapStop: "normal"

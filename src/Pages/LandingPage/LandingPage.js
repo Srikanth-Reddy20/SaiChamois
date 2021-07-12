@@ -11,7 +11,7 @@ function LandingPage() {
     return (
         <div>
           <Header />
-        <div style ={{scrollSnapType: "y mandatory", height:"100vh", overflow:"scroll"}}>
+        <div style ={{scrollSnapType: "y mandatory", height:"90vh", overflow:"auto"}}>
           <Landingsection1 style={{
                 scrollSnapAlign: "start",
                 scrollSnapStop: "normal"

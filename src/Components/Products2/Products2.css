@@ -1,0 +1,49 @@
+.data-slide{
+    background: url("./Design.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+}
+.products-heading{
+    color:white;
+}
+@media only screen and (max-width:480px){
+    .products-heading{
+        font-size: 20px;
+    }
+  }
+.products-content{
+    color: white;
+}
+@media only screen and (max-width:480px){
+    .products-content{
+        font-size: 12px;
+    }
+  }
+.products-slide{
+    padding-top: 400px;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+}
+@media only screen and (max-width:480px){
+    .products-slide{
+        padding-top: 350px;
+        width: 75%;
+        left: 12%;
+    }
+  }
+.carousel-indicators{
+    display: none;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 50%;
+    top: 333px;
+}
+@media only screen and (max-width:480px){
+    .carousel-control-next, .carousel-control-prev {
+        width: 49%;
+        top: 274px;
+    }
+  }

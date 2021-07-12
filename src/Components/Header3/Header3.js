@@ -1,22 +1,31 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "./Header.css";
+import "./Header3.css";
 import { FaGripLines } from "react-icons/fa";
 import { FcCloseUpMode, FcBiomass } from "react-icons/fc";
 import { FaTimes } from "react-icons/fa";
 import menuimg from "./Leather-2.jpg";
 import { Link } from "react-router-dom";
 
-function Header() {
+function Header3() {
   const footerLink = () => {
     document.getElementById("contact").scrollIntoView();
+  };
+  const timelineLink = () => {
+    document.getElementById("timeline2").scrollIntoView();
+  };
+  const chamoistypesLink = () => {
+    document.getElementById("chamoistypes").scrollIntoView();
+  };
+  const productsLink = () => {
+    document.getElementById("products2").scrollIntoView();
   };
 
   const [menuShow, setMenuShow] = useState(false);
   const navClass = menuShow ? "top-bar-fixed" : "top-bar";
-  return (
-    <>
-      <Container className={navClass} fluid>
+    return (
+        <>
+ <Container className={navClass} fluid>
         <Row className="header-row">
           <Col className="header-col">
             <FcCloseUpMode className="icon" />
@@ -42,17 +51,17 @@ function Header() {
                   <span>HOME</span>
                 </h4></Link>
                 <br />
-                <Link to="/"><h4 className="subtitle2 fancy">
-                  <span>ABOUT US</span>
-                </h4></Link>
+                <h4 onClick={timelineLink} className="subtitle2 fancy">
+                  <span>TIMELINE</span>
+                </h4>
                 <br />
-                <Link to="/Chamois"><h4 className="subtitle3 fancy">
-                  <span>CHAMOIS</span>
-                </h4></Link>
+                <h4 onClick={chamoistypesLink} className="subtitle3 fancy">
+                  <span>CHAMOIS TYPES</span>
+                </h4>
                 <br />
-                <Link to="/Leather"><h4 className="subtitle4 fancy">
-                  <span>LEATHER</span>
-                </h4></Link>
+                <h4 onClick={productsLink} className="subtitle4 fancy">
+                  <span>PRODUCTS</span>
+                </h4>
                 <br />
                 <h4 onClick={footerLink} className="subtitle5 fancy">
                   <span>CONTACT US</span>
@@ -70,7 +79,8 @@ function Header() {
           </Row>
         </div>
       )}
-    </>
-  );
+        </>
+    )
 }
-export default Header;
+
+export default Header3
