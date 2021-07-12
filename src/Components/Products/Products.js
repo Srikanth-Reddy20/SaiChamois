@@ -9,7 +9,7 @@ function Products() {
 
         <>
 
-<div className="data-slide">
+<div className="data-slide" id="products">
             <Carousel className="products-slide">
   <Carousel.Item>
 

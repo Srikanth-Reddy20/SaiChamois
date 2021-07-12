@@ -1,12 +1,11 @@
 import React,{useState} from 'react'
-import './Stepper.css';
+import './Stepper2.css';
 import stepperimage from './points.png';
 
-function Stepper() {
-
+function Stepper2() {
     return (
         <>
-          <div className="timeline-back align-content-center align-items-center" id="timeline">
+             <div className="timeline-back align-content-center align-items-center" id="timeline">
               <div className="main">
                   <div className="stepper c">
                   </div>
@@ -33,8 +32,8 @@ function Stepper() {
                   <div className="stepper c"></div>
                 </div>
           </div>
-       </>
+        </>
     )
 }
 
-export default Stepper
+export default Stepper2

@@ -1,5 +1,17 @@
+.top-bars{
+    text-align: center;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    z-index: 2;
+    inset: 0 0 0 0;
+}
 .top-bar{
     text-align: center;
+    background-color: white;
+    height: 10vh;
 }
 .icon{
     font-size: 40px;
@@ -7,3 +19,112 @@
 .header-col{
     padding: 1%;
 }
+.menu-col1{
+    background-color: #F4F4F4;
+    height: 100vh;
+}
+.menu-col2{
+    background-color: #F0F0F0;
+    height: 100vh;
+    position: relative;
+}
+.menu-image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 12%;
+    margin-top: 15%;
+    border: 2px solid green;
+    padding: 2rem;
+}
+.menu-imagediv{
+    text-align: center;
+}
+.header-leftsquare{
+    position: absolute;
+    width: 115px;
+    height: 125px;
+    background: #F4F4F4;
+    right: 0;
+    top: 220px;
+    left: 118px;
+}
+.header-rightsquare{
+    position: absolute;
+    width: 150px;
+    height: 190px;
+    background: #F4F4F4;
+    top: 310px;
+    left: 375px;
+}
+.menu-label{
+    margin-top: 32%;
+    text-align: left;
+    margin-left: 55%;
+    line-height: 3;
+}
+.top-bar-fixed{
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    z-index: 3;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+.header-row{
+    margin-right: 2px;
+}
+
+@media only screen and (max-width:1200px){
+    .header-row{
+        margin-right: 2px;
+    }
+}
+
+.menu-row{
+    margin-right: 4px;
+}
+
+@media only screen and (max-width:1200px){
+    .menu-row{
+        margin-right: 4px;
+    }
+}
+
+.fancy {
+    line-height: 0.5;
+  }
+  .fancy span {
+    display: inline-block;
+    position: relative;  
+  }
+ 
+  .fancy span:after {
+    content: "";
+    position: absolute;
+    height: 9px;
+    border-bottom: 2px solid green;
+    top: 0;
+    width: 379px;
+  }
+  .subtitle2 span:after{
+    width: 334px !important;
+  }
+  .subtitle3 span:after{
+    width: 340px !important;
+  }
+  .subtitle4 span:after{
+    width: 352px !important;
+  }
+  .subtitle5 span:after{
+    width: 306px !important;
+  }
+  .fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+    z-index: 1;
+  }
+  
+  

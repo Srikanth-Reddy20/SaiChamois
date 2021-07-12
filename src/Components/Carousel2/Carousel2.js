@@ -1,13 +1,12 @@
 import React from 'react'
-import './Carousel.css';
-import ImageSlider from '../ImageSlider'
+import './Carousel2.css';
+import ImageSlider2 from '../ImageSlider2'
 import slide from './Leather-1.jpg';
 import deer from './Deer.jpeg'
 import { Container } from 'react-bootstrap';
 
-
-function Carousel() {
- const LARGE_IMAGES = [
+function Carousel2() {
+    const LARGE_IMAGES = [
         {
           id: 1,
           src: "/assets/images/Leather-1.jpg",
@@ -58,14 +57,12 @@ function Carousel() {
       ];
     return (
         <>
-        
       <div className='carousel-image' id="leathertypes">
-        <ImageSlider images={LARGE_IMAGES} />
+        <ImageSlider2 images={LARGE_IMAGES} />
         
       </div> 
-  
         </>
     )
 }
 
-export default Carousel
+export default Carousel2

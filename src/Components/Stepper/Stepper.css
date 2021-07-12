@@ -4,7 +4,11 @@
   max-width: 500px;
   margin: auto;
 }
-
+@media only screen and (max-width:480px){
+  .main {
+    max-width: 300px;
+  }
+}
 .stepper {
   font-size: 1em;
   line-height: 1.75em;
@@ -63,6 +67,12 @@
   text-align: center;
   margin-bottom: 0rem !important;
 }
+@media only screen and (max-width:480px){
+  .stepper-content{
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}
 .stepper-content:hover{
   font-weight: 700;
 }
@@ -70,7 +80,19 @@
   width: 90px;
   height: 90px;
 }
+@media only screen and (max-width:480px){
+  .stepper-img{
+    width: 85px;
+    height: 85px;
+  }
+}
 .stepper-img:hover{
   width: 100px;
   height: 100px;
+}
+@media only screen and (max-width:480px){
+  .stepper-img:hover{
+    width: 95px;
+    height: 95px;
+  }
 }

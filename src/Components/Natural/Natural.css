@@ -8,6 +8,12 @@
     margin-bottom: 0px;
     padding: 70px 25%;
 }
+@media only screen and (max-width:480px){
+    .natural-para{
+        font-size: 14px;
+        padding: 25px 5%;
+    }
+  }
 .natural-container{
     background: url("./natural.jpeg");background-repeat: no-repeat;
     background-position:center;

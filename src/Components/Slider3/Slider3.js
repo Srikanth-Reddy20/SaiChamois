@@ -1,13 +1,13 @@
 import React from 'react'
-import './Slider.css';
+import './Slider3.css';
 import { Container, Row, Col, Button} from 'react-bootstrap';
 import upperimage from './points.png';
 import { Link } from "react-router-dom";
 
-function Slider() {
+function Slider3() {
     return (
         <>
-          <Container className="slider-container p-0" fluid>
+            <Container className="slider-container p-0" fluid>
             <div className="d-md-flex" >
               <Col className="bg1 slider-row d-flex justify-content-center 
               align-content-center align-items-center">
@@ -32,4 +32,4 @@ function Slider() {
     )
 }
 
-export default Slider
+export default Slider3

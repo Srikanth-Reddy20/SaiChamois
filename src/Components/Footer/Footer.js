@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function footer() {
     return (
         <>
-          <div className="footer-container" fluid>
+          <div className="footer-container" id="contact" fluid>
             <div className="d-flex justify-content-center">
             
                 <div className="d-flex justify-content-end col-5 address"> 

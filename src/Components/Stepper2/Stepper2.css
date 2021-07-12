@@ -1,0 +1,98 @@
+
+.main {
+    min-width: 300px;
+    max-width: 500px;
+    margin: auto;
+  }
+  @media only screen and (max-width:480px){
+    .main {
+      max-width: 300px;
+    }
+  }
+  .stepper {
+    font-size: 1em;
+    line-height: 1.75em;
+    border-top: 15px solid;
+    border-image: linear-gradient(to right, #DFDFDF 0%, #DFDFDF 100%);
+    border-image-slice: 1;
+    border-width: 15px;
+    margin: 0;
+    padding: 20px;
+  
+    position: relative;
+    color: #34435E;
+  }
+  
+  
+  .stepper:nth-child(odd) {
+    border-left: 15px solid;
+    padding-right: 0;
+  }
+  .stepper:nth-child(odd)::before {
+    left: 100%; 
+    margin-left: -20px;
+  }
+  
+  .stepper:nth-child(even) {
+    border-right: 15px solid;
+    padding-left: 0;
+  }
+  .stepper:nth-child(even)::before {
+    right: 100%; 
+    margin-right: -20px;
+  }
+  
+  .stepper:first-child {
+    border-top: 0;
+    border-top-right-radius:0;
+    border-top-left-radius:0;
+  }
+  .stepper:last-child {
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+  }
+  .timeline-back{
+    background-image: url("./Leather-2.jpg");
+    background-size: cover;
+  }
+  
+  .c{
+    border-left: none !important;
+    border-right: none !important;
+  }
+  .stepper-content{
+    width: 80%;
+    color: white !important;
+    z-index: 2;
+    text-align: center;
+    margin-bottom: 0rem !important;
+  }
+  @media only screen and (max-width:480px){
+    .stepper-content{
+      font-size: 12px;
+      line-height: 1.5;
+    }
+  }
+  .stepper-content:hover{
+    font-weight: 700;
+  }
+  .stepper-img{
+    width: 90px;
+    height: 90px;
+  }
+  @media only screen and (max-width:480px){
+    .stepper-img{
+      width: 85px;
+      height: 85px;
+    }
+  }
+  .stepper-img:hover{
+    width: 100px;
+    height: 100px;
+  }
+  @media only screen and (max-width:480px){
+    .stepper-img:hover{
+      width: 95px;
+      height: 95px;
+    }
+  }

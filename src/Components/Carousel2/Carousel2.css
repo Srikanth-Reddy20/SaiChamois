@@ -1,0 +1,15 @@
+
+
+
+.deer-text{
+    background: url("./Deer.jpeg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 20vh;
+    width: 70%;
+}
+.carousel-img{
+    width: 600px;
+    height: auto;
+}
