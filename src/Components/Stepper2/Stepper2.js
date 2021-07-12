@@ -7,29 +7,29 @@ function Stepper2() {
         <>
              <div className="timeline-back align-content-center align-items-center" id="timeline2">
               <div className="main">
-                  <div className="stepper c">
+                  <div className="stepper1 c">
                   </div>
-                  <div className="stepper d-flex">
+                  <div className="stepper2 d-flex">
                        <p className="stepper-content">We combine time honoured tanning techniques with the most 
                       modern production processes to deliver the finest quality Natural Chamois.</p>
                       <img src={stepperimage} className="stepper-img" />
                   </div>
-                  <div className="stepper d-flex" >
+                  <div className="stepper3 d-flex" >
                       <img src={stepperimage} className="stepper-img" />
                       <p className="stepper-content">We combine time honoured tanning techniques with the most 
                   modern production processes to deliver the finest quality Natural Chamois.</p>
                   </div>
-                  <div className="stepper d-flex" >
+                  <div className="stepper4 d-flex" >
                        <p className="stepper-content">We combine time honoured tanning techniques with the most 
                   modern production processes to deliver the finest quality Natural Chamois.</p>
                       <img src={stepperimage} className="stepper-img" />
                   </div>
-                  <div className="stepper d-flex" >
+                  <div className="stepper5 d-flex" >
                       <img src={stepperimage} className="stepper-img" />
                      <p className="stepper-content">We combine time honoured tanning techniques with the most 
                   modern production processes to deliver the finest quality Natural Chamois.</p>
                   </div>
-                  <div className="stepper c"></div>
+                  <div className="stepper6 c"></div>
                 </div>
           </div>
         </>

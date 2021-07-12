@@ -9,6 +9,8 @@
 
 .input-field{
     margin-bottom: 8px;
+    background-color: black;
+    border-color: black;
 }
 .form-but{
     float: right;
@@ -18,7 +20,7 @@
 }
 .footer-back{
     clip-path: polygon(16% 0, 100% 0, 100% 100%, 3% 100%, 12% 78%, 12% 45%, 0 20%);
-    background: url("./Leather-3.jpg");
+    background: url("./footerimg.png");
     background-size: cover;
     padding: 5% 0;
 }
@@ -27,4 +29,9 @@
 }
 .address{
     padding: 5% 0;
+}
+.btn-dark {
+    color: #fff;
+    background-color: black;
+    border-color: black;
 }

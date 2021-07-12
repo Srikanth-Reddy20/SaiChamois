@@ -6,7 +6,7 @@ import "./Products2.css";
 function Products2() {
     return (
         <>
-            <div className="data-slide" id="products2">
+            <div className="data-slide2" id="products2">
         <Carousel className="products-slide">
           <Carousel.Item>
             <h3 className="products-heading">Deer Wallets</h3>

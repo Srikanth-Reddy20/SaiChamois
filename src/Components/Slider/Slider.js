@@ -1,7 +1,8 @@
 import React from 'react'
 import './Slider.css';
 import { Container, Row, Col, Button} from 'react-bootstrap';
-import upperimage from './points.png';
+import Chaimage from './Cha2.svg';
+import Leaimage from './Lea2.svg';
 import { Link } from "react-router-dom";
 
 function Slider() {
@@ -13,7 +14,7 @@ function Slider() {
               align-content-center align-items-center">
                 <div>
                   <Link to="/Chamois">
-                    <img src={upperimage} alt="upper-image" className="slide-icon1" />
+                    <img src={Chaimage} alt="upper-image" className="slide-icon1" />
                     </Link>
                 </div>
                     
@@ -22,7 +23,7 @@ function Slider() {
               align-content-center align-items-center">
               <div>
               <Link to="/Leather">
-                  <img src={upperimage} alt="upper-image" className="slide-icon2" />
+                  <img src={Leaimage} alt="upper-image" className="slide-icon2" />
                   </Link>
               </div> 
               </Col>

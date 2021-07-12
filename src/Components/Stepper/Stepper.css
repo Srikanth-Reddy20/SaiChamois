@@ -13,14 +13,14 @@
   font-size: 1em;
   line-height: 1.75em;
   border-top: 15px solid;
-  border-image: linear-gradient(to right, #DFDFDF 0%, #DFDFDF 100%);
+ 
   border-image-slice: 1;
   border-width: 15px;
   margin: 0;
   padding: 20px;
   z-index: 1;
   position: relative;
-  color: #34435E;
+  color: #DFDFDF;
 }
 
 
@@ -28,19 +28,14 @@
   border-left: 15px solid;
   padding-right: 0;
 }
-.stepper:nth-child(odd)::before {
-  left: 100%; 
-  margin-left: -20px;
-}
+
 
 .stepper:nth-child(even) {
   border-right: 15px solid;
   padding-left: 0;
+
 }
-.stepper:nth-child(even)::before {
-  right: 100%; 
-  margin-right: -20px;
-}
+
 
 .stepper:first-child {
   border-top: 0;
