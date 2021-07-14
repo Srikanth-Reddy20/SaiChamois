@@ -31,7 +31,7 @@ function footer() {
                   </p>
                 </div>
                 <div>
-                  <p>&#169;2021. saichamois. All Rights Reserved
+                  <p className="rights">&#169;2021. saichamois. All Rights Reserved
                   </p>
                  </div>
               </div>  
