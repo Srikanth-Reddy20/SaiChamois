@@ -107,32 +107,6 @@
     display: inline-block;
     position: relative;  
   }
- 
-  .fancy span:after {
-    content: "";
-    position: absolute;
-    height: 9px;
-    border-bottom: 2px solid green;
-    top: 0;
-    width: 379px;
-  }
-  .subtitle2 span:after{
-    width: 334px !important;
-  }
-  .subtitle3 span:after{
-    width: 340px !important;
-  }
-  .subtitle4 span:after{
-    width: 352px !important;
-  }
-  .subtitle5 span:after{
-    width: 306px !important;
-  }
-  .fancy span:after {
-    left: 100%;
-    margin-left: 15px;
-    z-index: 1;
-  }
   
   @media only screen and (min-width:720px){
     .fancy {

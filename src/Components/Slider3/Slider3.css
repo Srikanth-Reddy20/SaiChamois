@@ -8,7 +8,8 @@
 .bx1{
   width: 350px;
   height: 125px;
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: 600;
   padding: 21px 90px 21px 21px ;
   position: relative;
   display: flex;

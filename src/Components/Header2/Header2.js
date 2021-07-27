@@ -32,9 +32,9 @@ function Header2() {
           </Col>
           <Col className="header-col">
             {!menuShow ? (
-              <FaGripLines className="icon" onClick={() => setMenuShow(true)} />
+              <FaGripLines style={{cursor:"pointer"}} className="icon" onClick={() => setMenuShow(true)} />
             ) : (
-              <FaTimes className="icon" onClick={() => setMenuShow(false)} />
+              <FaTimes style={{cursor:"pointer"}} className="icon" onClick={() => setMenuShow(false)} />
             )}{" "}
           </Col>
           <Col className="header-col">
@@ -51,19 +51,19 @@ function Header2() {
                   <span>HOME</span>
                 </h4></Link>
                 <br />
-                <h4 onClick={timelineLink} className="subtitle2 fancy">
+                <h4 style={{cursor:"pointer"}} onClick={timelineLink} className="subtitle2 fancy">
                   <span>TIMELINE</span>
                 </h4>
                 <br />
-                <h4 onClick={leathertypesLink} className="subtitle3 fancy">
+                <h4 style={{cursor:"pointer"}} onClick={leathertypesLink} className="subtitle3 fancy">
                   <span>LEATHER TYPES</span>
                 </h4>
                 <br />
-                <h4 onClick={productsLink} className="subtitle4 fancy">
+                <h4 style={{cursor:"pointer"}} onClick={productsLink} className="subtitle4 fancy">
                   <span>PRODUCTS</span>
                 </h4>
                 <br />
-                <h4 onClick={footerLink} className="subtitle5 fancy">
+                <h4 style={{cursor:"pointer"}} onClick={footerLink} className="subtitle5 fancy">
                   <span>CONTACT US</span>
                 </h4>
                 <br />

@@ -12,9 +12,7 @@ function Slider3() {
           <Col className="slider2-image">
             <div className="bx">
               <div className="bx1">
-                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                Lorem ipsum
+                PREMIUM CHAMOIS PRODUCED AND PROCESSED FROM NEW ZEALAND
                 <div className="triangle-bottomright"></div>
               </div>
               <div className="bx2">

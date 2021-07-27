@@ -1,8 +1,16 @@
+.carousel-control-next {
+    align-items: unset;
+}
+
+.carousel-control-prev {
+    align-items: unset;
+}
+
 .data-slide2{
     background-color: #1D1D1D;
     height: 90vh;
     position: relative;
-    border-radius: 700px 700px 0 0;
+    border-radius: 1100px 1100px 0 0;
     text-align: center;
     }
     .products-heading2{
@@ -27,10 +35,6 @@
         position: absolute;
         width: 44%;
     }
-    .products-slide2::after{
-        content: "\003C";
-        color: green;
-    }
     @media only screen and (max-width:480px){
         .products-slide2{
             padding-top: 350px;
@@ -41,18 +45,11 @@
     .carousel-indicators{
         display: none;
     }
-    .carousel-control-next, .carousel-control-prev {
-        width: 50%;
-        top: 333px;
-    }
     @media only screen and (max-width:480px){
-        .carousel-control-next, .carousel-control-prev {
-            width: 49%;
-            top: 274px;
-        }
       }
       .products-head{
-        font-size: 20px;
+        font-size: 30px;
+        font-weight: 600;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -92,7 +89,8 @@
         border-radius: 150px;
         position: absolute;
         bottom: 50%;
-        left: 40%;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .circle4{
         width: 225px;

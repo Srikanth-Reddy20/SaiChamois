@@ -16,13 +16,15 @@ import LeatherPage from "./Pages/LeatherPage/LeatherPage";
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Switch>
-          <Route path="/" component={LandingPage} exact />
-          <Route path="/Chamois" component={ChamoisPage} />
-          <Route path="/Leather" component={LeatherPage} />
-        </Switch>
-      </BrowserRouter>
+      {
+        window.screen.width > 1200 && <BrowserRouter>
+          <Switch>
+            <Route path="/" component={LandingPage} exact />
+            <Route path="/Chamois" component={ChamoisPage} />
+            <Route path="/Leather" component={LeatherPage} />
+          </Switch>
+        </BrowserRouter>
+      }
     </>
   );
 }

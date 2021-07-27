@@ -11,57 +11,34 @@ function Carousel2() {
           id: 1,
           src: "/assets/images/Leather-1.jpg",
           alt: "Placeholder image",
-          head: "head1",
-          content: "New Zealand has a rich history of sheep farming, but few people realize we have also been farming goats for generations",
+          head: "TRADITIONAL CHAMOIS",
+          content: "Traditional chamois is produced using New Zealand sheep skins, but we can also offer made from New Zealand Deer and Goat for special purposes. ",
         },
         {
           id: 2,
           src: "/assets/images/Leather-1.jpg",
           alt: "Placeholder image",
-          head: "head2",
-          content: "New Zealand has a rich history of sheep farming, but few people realize we have also been farming goats for generations",
-        
-        },
-        {
-          id: 3,
-          src: "/assets/images/Leather-1.jpg",
-          alt: "Placeholder image",
-          head: "head3",
-          content: "New Zealand has a rich history of sheep farming, but few people realize we have also been farming goats for generations",
-        
-        },
-        {
-          id: 4,
-          src: "/assets/images/Leather-1.jpg",
-          alt: "Placeholder image",
-          head: "head4",
-          content: "New Zealand has a rich history of sheep farming, but few people realize we have also been farming goats for generations",
-        
-        },
-        {
-          id: 5,
-          src: "/assets/images/Leather-1.jpg",
-          alt: "Placeholder image",
-          head: "head5",
-          content: "New Zealand has a rich history of sheep farming, but few people realize we have also been farming goats for generations",
-        
-        },
-        {
-          id: 6,
-          src: "/assets/images/Leather-1.jpg",
-          alt: "Placeholder image",
-          head: "head6",
-          content: "New Zealand has a rich history of sheep farming, but few people realize we have also been farming goats for generations",
-        
-        },
+          head: "ANTI VIRAL CHAMOIS",
+          content: "We've achieved anti-viral properties in our traditional chamois through high tech research and development implemented in our manufacturing process",
+        }
       ];
     return (
-        <>
-      <div className='carousel-image' id="chamoistypes">
-        <ImageSlider2 images={LARGE_IMAGES} />
-        
+      <div className='carousel-image' id="chamoistypes" style={{display:"flex", alignItems:'center', justifyContent:"space-evenly", padding:"0px 1%"}}>
+        <div style={{paddingRight:"2%"}}>
+          <div className="image-head-div"><div className="image-heading" style={{fontSize:"4rem", letterSpacing:'10px'}}>TRADITIONAL CHAMOIS</div></div>
+          <div className="slideWrapper">
+            <img src={"/assets/images/Leather-1.jpg"} alt=""  className="carousel-img" />
+          </div>
+          <div className="image-content">Traditional chamois is produced using New Zealand sheep skins, but we can also offer made from New Zealand Deer and Goat for special purposes.</div>
+        </div>
+        <div style={{paddingLeft:"2%"}}>
+          <div className="image-head-div"><div className="image-heading" style={{fontSize:"4rem", letterSpacing:'10px'}}>ANTI-VIRAL <br/> CHAMOIS</div></div>
+          <div className="slideWrapper">
+            <img src={"/assets/images/Leather-1.jpg"} alt=""  className="carousel-img" />
+          </div>
+          <div className="image-content">We've achieved anti-viral properties in our traditional chamois through high tech research and development implemented in our manufacturing process</div>
+        </div>
       </div> 
-        </>
     )
 }
 

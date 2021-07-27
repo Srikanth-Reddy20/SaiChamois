@@ -23,9 +23,9 @@ function Header() {
           </Col>
           <Col className="header-col">
             {!menuShow ? (
-              <FaGripLines className="icon" onClick={() => setMenuShow(true)} />
+              <FaGripLines style={{cursor:"pointer"}} className="icon" onClick={() => setMenuShow(true)} />
             ) : (
-              <FaTimes className="icon" onClick={() => setMenuShow(false)} />
+              <FaTimes style={{cursor:"pointer"}} className="icon" onClick={() => setMenuShow(false)} />
             )}{" "}
           </Col>
           <Col className="header-col">
@@ -42,10 +42,6 @@ function Header() {
                   <span>HOME</span>
                 </h4></Link>
                 <br />
-                <Link to="/"><h4 className="subtitle2 fancy">
-                  <span>ABOUT US</span>
-                </h4></Link>
-                <br />
                 <Link to="/Chamois"><h4 className="subtitle3 fancy">
                   <span>CHAMOIS</span>
                 </h4></Link>
@@ -54,7 +50,7 @@ function Header() {
                   <span>LEATHER</span>
                 </h4></Link>
                 <br />
-                <h4 onClick={footerLink} className="subtitle5 fancy">
+                <h4 style={{cursor:"pointer"}} onClick={footerLink} className="subtitle5 fancy">
                   <span>CONTACT US</span>
                 </h4>
                 <br />
