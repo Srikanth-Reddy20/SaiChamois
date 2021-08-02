@@ -13,18 +13,121 @@
 .form-but{
     float: right;
 }
-.footer-text p{
+.footer-text2 p{
  margin-top:1rem;
+ font-size: 1.2rem;
 }
 .footer2-back{
+    position: relative;
+    padding: 10% 0 20%;
     clip-path: polygon(100% 0, 100% 79%, 60% 79%, 43% 88%, 18% 89%, 0 100%, 0 0);
-    background: url("./Leather-3.jpg");
+    background: url("./footerimg.png");
     background-size: cover;
-    padding: 5% 0;
 }
 .form{
     width: 55%;
 }
-.address{
-    padding: 5% 0;
+
+
+.f2-col{
+
+    padding: 0;
+}
+.f2-container{
+    padding: 0;
+}
+
+.address2{
+    text-align: left;
+    padding: 5% 0% 5% 24%;
+}
+
+.copyright-text{
+    font-size: 1.2rem;
+}
+.contact-vertical-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    font-family: arvo;
+    margin: 0px;
+    padding-left: 15%;
+    color: #36e636;
+    padding-bottom: 78%;
+    letter-spacing: 13px;
+    font-size: 5rem;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.08);
+    -webkit-text-stroke-width: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+@media only screen and (max-width:480px){
+    .footer2-back{
+        padding: 10% 0 30%;
+    }
+    .footer-text2 p{
+        font-size: 1rem;
+       }
+       .copyright-text{
+        font-size: 1rem;
+    }
+    .contact-vertical-text{
+        padding-bottom: 78%;
+        letter-spacing: 10px;
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .footer-text2 p{
+        font-size: 0.9rem;
+       }
+       .copyright-text{
+        font-size: 0.9rem;
+    }
+    .contact-vertical-text{
+        padding-left: 3%;
+        padding-top: 8%;
+        letter-spacing: 10px;
+        font-size: 4.6rem;
+    }
+}
+
+@media only screen and (max-width:350px){
+    .address2{
+        padding: 5% 0% 5% 14%;
+    }
+    .footer-text2 p{
+        font-size: 0.8rem;
+       }
+       .copyright-text{
+        font-size: 0.8rem;
+    }
+    .contact-icon{
+        font-size: 1.2rem;
+    }
+    .contact-vertical-text {
+        padding-left: 0%;
+        padding-top: 15%;
+        letter-spacing: 10px;
+        font-size: 4.2rem;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .address2{
+        padding: 5% 0% 5% 8%;
+    }
+    .footer2-back{
+        padding: 10% 0 40%;
+    }
+    .contact-vertical-text {
+        padding-top: 23%;
+    }
 }

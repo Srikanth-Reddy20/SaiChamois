@@ -108,3 +108,25 @@
   }
   
   
+
+  @media only screen and (max-width:700px){
+    .fancy {
+        font-size: 15px;
+      }
+      .header-leftsquare {
+        width: 95px;
+        height: 105px;
+        top: 231px;
+        left: 58px;
+    }
+    .menu-image {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width:625px){
+      .header-leftsquare {
+        left: 30px;
+    }
+}

@@ -9,7 +9,94 @@
     height: 20vh;
     width: 70%;
 }
-.carousel-img{
-    width: 600px;
-    height: auto;
-}
+.image-heading{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    font-family: arvo;
+    margin: 0px;
+    letter-spacing: 10px;
+    font-size: 4rem;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .image-content{
+    font-family: 'Arvo-Regular';
+    font-size: 22px;
+    text-align: justify;
+    padding-top: 10%;
+  }
+
+  @media only screen and (max-width:1023px){
+    .image-content{
+      font-size: 20px;
+      text-align: center;
+      width: 80%;
+      position: relative;
+      padding-top: 5%;
+      left: 10%;
+      padding-bottom: 3%;
+    }
+  }
+
+
+  @media only screen and (max-width:700px){
+    .carousel-img{
+        width: 250px;
+      }
+      .image-heading{
+        letter-spacing: 5px;
+        font-size: 2rem;
+      }
+      .image-content{
+        font-size: 11px;
+      }
+  }
+
+  @media only screen and (max-width:604px){
+    .carousel-img{
+        width: 200px;
+      }
+      .image-heading{
+        letter-spacing: 5px;
+        font-size: 1.8rem;
+      }
+      .image-content{
+        font-size: 11px;
+      }
+  }
+
+  @media only screen and (max-width:511px){
+    .carousel-img{
+        width: 160px;
+      }
+      .image-heading{
+        letter-spacing: 3px;
+        font-size: 1.2rem;
+      }
+      .image-content{
+        font-size: 10px;
+      }
+  }
+
+  @media only screen and (max-width:382px){
+    .carousel-img{
+        width: 120px;
+      }
+      .image-heading{
+        letter-spacing: 3px;
+        font-size: 0.8rem;
+        padding-top: 5%;
+      }
+      .image-content{
+        font-size: 8px;
+      }
+  }

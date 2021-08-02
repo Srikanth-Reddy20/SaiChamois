@@ -25,14 +25,14 @@ function Carousel2() {
     return (
       <div className='carousel-image' id="chamoistypes" style={{display:"flex", alignItems:'center', justifyContent:"space-evenly", padding:"0px 1%"}}>
         <div style={{paddingRight:"2%"}}>
-          <div className="image-head-div"><div className="image-heading" style={{fontSize:"4rem", letterSpacing:'10px'}}>TRADITIONAL CHAMOIS</div></div>
+          <div className="image-head-div"><div className="image-heading" >TRADITIONAL CHAMOIS</div></div>
           <div className="slideWrapper">
             <img src={"/assets/images/Leather-1.jpg"} alt=""  className="carousel-img" />
           </div>
           <div className="image-content">Traditional chamois is produced using New Zealand sheep skins, but we can also offer made from New Zealand Deer and Goat for special purposes.</div>
         </div>
         <div style={{paddingLeft:"2%"}}>
-          <div className="image-head-div"><div className="image-heading" style={{fontSize:"4rem", letterSpacing:'10px'}}>ANTI-VIRAL <br/> CHAMOIS</div></div>
+          <div className="image-head-div"><div className="image-heading" >ANTI-VIRAL <br/> CHAMOIS</div></div>
           <div className="slideWrapper">
             <img src={"/assets/images/Leather-1.jpg"} alt=""  className="carousel-img" />
           </div>

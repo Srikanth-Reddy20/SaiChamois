@@ -40,15 +40,7 @@
       font-size: 1.3rem;
     }
   }
-  .carousel-img{
-    width: 380px;
-    height: auto;
-}
-@media only screen and (max-width:480px){
-  .carousel-img{
-    width: 250px;
-}
-}
+
 .Arrow-bg{
   height: 45px;
   width: 45px;
@@ -73,64 +65,12 @@
 color: white ;
 -webkit-text-stroke-color: white;
 }
-.image-content{
-  font-family: 'Arvo-Regular';
-  font-size: 22px;
-  text-align: justify;
-  padding-top: 10%;
-}
 
-
-@media only screen and (max-width:1023px){
-  .image-content{
-    font-size: 20px;
-    text-align: center;
-    width: 80%;
-    position: relative;
-    padding-top: 5%;
-    left: 10%;
-    padding-bottom: 3%;
-  }
-}
-@media only screen and (max-width:480px){
-  .image-content{
-    font-size: 13px;
-    text-align: center;
-    width: 80%;
-    position: relative;
-    padding-top: 5%;
-    left: 10%;
-    padding-bottom: 3%;
-  }
-}
 .slidetype .image-content{
   color: white ;
   }
-.image-heading{
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    font-family: arvo;
-    margin: 0px;
-    letter-spacing: 30px;
-    font-size: 7rem;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
-    -webkit-text-stroke-width: 2px;
-    text-align: center;
-    text-transform: uppercase;
-    width: 100%;
-    align-content: center;
-    align-items: center;
-    height: 100%;
-}
-@media only screen and (max-width:480px){
-  .image-heading{
-    left: 12px;
-    letter-spacing: 20px;
-    font-size: 3rem;
-}
-}
+
+
 .image-head-div{
   top: 0;
   width: 100%;
