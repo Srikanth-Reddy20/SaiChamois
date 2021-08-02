@@ -1,6 +1,12 @@
 .header{
     color: blue;
 }
+.footer-container{
+    height: 70vh;
+}
+.contact-section{
+    height: 100%;
+}
 .contact-icon{
     color: green;
     margin-right: 15px;

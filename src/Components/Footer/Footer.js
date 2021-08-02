@@ -1,15 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Container, Row, Col, Button, Form} from 'react-bootstrap';
+import Footer2 from "../Footer2/Footer2"
 import './Footer.css';
+import '../Footer2/Footer2.css'
 import { FaTelegramPlane, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function footer() {
     return (
         <>
-          <div className="footer-container" id="contact" fluid>
-            <div className="d-flex justify-content-center">
+      {
+        window.screen.width > 1000 && <div>
+           <div className="footer-container" id="contact" fluid>
+            <div className="d-flex justify-content-center contact-section">
             
                 <div className="d-flex justify-content-end col-5 address"> 
                 <div>  
@@ -49,6 +53,12 @@ function footer() {
                   </div>
             </div>
           </div>          
+        </div>
+      }
+      {
+        window.screen.width < 1000 && <Footer2 />
+      }
+         
         </>
     )
 }

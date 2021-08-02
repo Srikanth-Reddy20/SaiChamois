@@ -1,16 +1,16 @@
 .header{
     color: blue;
 }
-.contact-icon{
+.contact-icon2{
     color: green;
     margin-right: 15px;
     font-size: 1.5rem;
 }
 
-.input-field{
+.input-field2{
     margin-bottom: 8px;
 }
-.form-but{
+.form-but2{
     float: right;
 }
 .footer-text2 p{
@@ -24,7 +24,7 @@
     background: url("./footerimg.png");
     background-size: cover;
 }
-.form{
+.form2{
     width: 55%;
 }
 
