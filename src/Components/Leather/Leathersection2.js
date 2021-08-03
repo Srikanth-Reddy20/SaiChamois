@@ -1,10 +1,10 @@
 import React from 'react'
-import Natural from '../Natural/Natural'
+import Natural2 from '../Natural2/Natural2'
 
 function Leathersection2(props) {
     return (
         <div style={props.style}>
-            <Natural />
+            <Natural2 />
         </div>
     )
 }

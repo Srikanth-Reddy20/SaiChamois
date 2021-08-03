@@ -12,7 +12,7 @@ function Carousel2() {
           src: "/assets/images/Leather-1.jpg",
           alt: "Placeholder image",
           head: "TRADITIONAL CHAMOIS",
-          content: "Traditional chamois is produced using New Zealand sheep skins, but we can also offer made from New Zealand Deer and Goat for special purposes. ",
+          content: "Traditional chamois is produced using New Zealand sheep skins and hides, but we can also offer made from New Zealand Deer and Goat for special purposes. ",
         },
         {
           id: 2,
@@ -29,7 +29,7 @@ function Carousel2() {
           <div className="slideWrapper">
             <img src={"/assets/images/Leather-1.jpg"} alt=""  className="carousel-img" />
           </div>
-          <div className="image-content">Traditional chamois is produced using New Zealand sheep skins, but we can also offer made from New Zealand Deer and Goat for special purposes.</div>
+          <div className="image-content">Traditional chamois is produced using New Zealand sheep skins and hides, but we can also offer made from New Zealand Deer and Goat for special purposes.</div>
         </div>
         <div style={{paddingLeft:"2%"}}>
           <div className="image-head-div"><div className="image-heading" >ANTI-VIRAL <br/> CHAMOIS</div></div>

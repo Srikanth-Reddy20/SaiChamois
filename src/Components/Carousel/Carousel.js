@@ -33,13 +33,6 @@ function Carousel() {
         },
         {
           id: 4,
-          src: "/assets/images/slink-lamb.webp",
-          alt: "Placeholder image",
-          head: "SLINK LAMB",
-          content: "New Zealand slink baby lamb shearling is prized by the world’s leading fashion houses and glove makers. Each piece of shearling is handcrafted by our artisans in the Deep South of New Zealand.",
-        },
-        {
-          id: 5,
           src: "/assets/images/eco-lamb.webp",
           alt: "Placeholder image",
           head: "ECO LAMB",
@@ -47,7 +40,7 @@ function Carousel() {
         
         },
         {
-          id: 6,
+          id: 5,
           src: "/assets/images/naked-cow.webp",
           alt: "Placeholder image",
           head: "NAKED COW",
@@ -55,7 +48,7 @@ function Carousel() {
         
         },
         {
-          id: 7,
+          id: 6,
           src: "/assets/images/bavarian-deer.webp",
           alt: "Placeholder image",
           head: "BAVARIAN SUEDE",
