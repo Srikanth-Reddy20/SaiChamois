@@ -9,6 +9,9 @@ function Slider() {
     return (
         <>
           <Container className="slider-container p-0" fluid>
+            <div className="snackbar">
+              Click on any Section to Proceed
+            </div>
             <div className="d-md-flex" >
               <Col className="bg1 slider-row d-flex justify-content-center 
               align-content-center align-items-center">
