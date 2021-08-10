@@ -1,0 +1,77 @@
+.slidetype {
+  display: flex;flex-direction: column;justify-content: center;
+    transform: scale(0.7);
+    transition: transform 300ms;
+    opacity: 0.5;
+  }
+  
+  .slideWrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .prevArrow {
+    position: absolute;
+    top: 37%;
+    left: 220px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding-right: 5px;
+  }
+  @media only screen and (max-width:480px){
+    .prevArrow {
+      left: 20px;
+      font-size: 1.3rem;
+    }
+  }
+  
+  .nextArrow {
+    position: absolute;
+    right: 230px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding-left: 5px;
+  }
+  @media only screen and (max-width:480px){
+    .nextArrow {
+      right: 20px;
+      font-size: 1.3rem;
+    }
+  }
+
+.Arrow-bg{
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: green;
+  border-radius: 10rem;
+  color: white;
+  align-items: center;
+  flex-direction: column;
+  top: 270px;
+}
+@media only screen and (max-width:480px){
+  .Arrow-bg{
+    height: 35px;
+    width: 35px;
+    top: 135px;
+  }
+}
+.slidetype .image-heading{
+color: white ;
+-webkit-text-stroke-color: white;
+}
+
+.slidetype .image-content{
+  color: white ;
+  }
+
+
+.image-head-div{
+  top: 0;
+  width: 100%;
+}

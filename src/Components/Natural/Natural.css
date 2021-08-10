@@ -59,8 +59,28 @@
     }
   }
 .natural-container{
-    background: url("./natural.jpeg");background-repeat: no-repeat;
+    background: url("./chamois-natural.jpeg");
+    background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
-    font-family: 'Arvo-Regular';
+    position: relative;
+}
+
+.natural-heading{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  font-family: arvo;
+  margin: 0px;
+  letter-spacing: 10px;
+  font-size: 4rem;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  height: 100%;
 }

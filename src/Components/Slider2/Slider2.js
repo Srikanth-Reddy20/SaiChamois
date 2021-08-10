@@ -2,7 +2,7 @@ import React from "react";
 import sliderimage from "./Leather-1.jpg";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./Slider2.css";
-import upperimage from "./points.png";
+import upperimage from "./saichamois-logo.jpeg";
 
 function Slider2() {
   return (

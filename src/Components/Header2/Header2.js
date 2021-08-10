@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Header2.css";
 import { FaGripLines } from "react-icons/fa";
@@ -6,6 +6,10 @@ import { FcCloseUpMode, FcBiomass } from "react-icons/fc";
 import { FaTimes } from "react-icons/fa";
 import menuimg from "./Leather-2.jpg";
 import { Link } from "react-router-dom";
+import menuimg1 from "../Header/Leather-1.jpg";
+import menuimg2 from "../Header/traditional-chamois.jpeg";
+import menuimg3 from "../Header/footerimg.png";
+import menuimg4 from "../Header/antiviral-chamois.jpeg";
 
 function Header2() {
   const footerLink = () => {
@@ -20,6 +24,11 @@ function Header2() {
   const productsLink = () => {
     document.getElementById("products").scrollIntoView();
   };
+  const menuImage = useRef(null)
+
+  const showMenuImage = (imageSrc) => {
+    menuImage.current.src=imageSrc;
+  }
 
   const [menuShow, setMenuShow] = useState(false);
   const navClass = menuShow ? "top-bar-fixed" : "top-bar";
@@ -47,23 +56,23 @@ function Header2() {
           <Row className="menu-row">
             <Col className="menu-col1 col-4">
               <div className="menu-label">
-                <Link to="/"><h4 className="subtitle1 fancy">
+                <Link onMouseOver={e => {showMenuImage(menuimg1)}} to="/"><h4 className="subtitle1 fancy">
                   <span>HOME</span>
                 </h4></Link>
                 <br />
-                <h4 style={{cursor:"pointer"}} onClick={timelineLink} className="subtitle2 fancy">
+                <h4 onMouseOver={e => {showMenuImage(menuimg2)}} style={{cursor:"pointer"}} onClick={timelineLink} className="subtitle2 fancy">
                   <span>TIMELINE</span>
                 </h4>
                 <br />
-                <h4 style={{cursor:"pointer"}} onClick={leathertypesLink} className="subtitle3 fancy">
+                <h4 onMouseOver={e => {showMenuImage(menuimg)}} style={{cursor:"pointer"}} onClick={leathertypesLink} className="subtitle3 fancy">
                   <span>LEATHER TYPES</span>
                 </h4>
                 <br />
-                <h4 style={{cursor:"pointer"}} onClick={productsLink} className="subtitle4 fancy">
+                <h4 onMouseOver={e => {showMenuImage(menuimg3)}} style={{cursor:"pointer"}} onClick={productsLink} className="subtitle4 fancy">
                   <span>PRODUCTS</span>
                 </h4>
                 <br />
-                <h4 style={{cursor:"pointer"}} onClick={footerLink} className="subtitle5 fancy">
+                <h4 onMouseOver={e => {showMenuImage(menuimg4)}} style={{cursor:"pointer"}} onClick={footerLink} className="subtitle5 fancy">
                   <span>CONTACT US</span>
                 </h4>
                 <br />
@@ -72,7 +81,7 @@ function Header2() {
             <Col className="menu-col2 col-8">
               <div className="menu-imagediv">
                 <div className="header-leftsquare"></div>
-                <img src={menuimg} className="menu-image" />
+                <img ref={menuImage} src={menuimg} className="menu-image" />
                 <div className="header-rightsquare"></div>
               </div>
             </Col>
