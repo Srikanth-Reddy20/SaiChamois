@@ -99,3 +99,12 @@
     animation: spin-2  infinite 5s linear;
   }
 }
+
+@media only screen and (max-width:767px){
+  .bg1 {
+   height: 45vh;
+  }
+  .bg2 {
+    height: 45vh;
+   }
+}

@@ -44,8 +44,8 @@ function Header() {
       </Container>
       {menuShow && (
         <div className="top-bars" onClick={() => setMenuShow(false)}>
-          <Row className="menu-row">
-            <Col className="menu-col1 col-4">
+          <div className="menu-row d-md-flex">
+            <div className="menu-col1">
               <div className="menu-label">
                 <Link onMouseOver={e => {showMenuImage(menuimg2)}} to="/" className="home"><h4 className="subtitle1 fancy">
                   <span>HOME</span>
@@ -64,15 +64,15 @@ function Header() {
                 </h4>
                 <br />
               </div>
-            </Col>
-            <Col className="menu-col2 col-8">
+            </div>
+            <div className="menu-col2">
               <div className="menu-imagediv">
                 <div className="header-leftsquare"></div>
                   <img ref={menuImage} src={menuimg} className="menu-image" />
                 <div className="header-rightsquare"></div>
               </div>
-            </Col>
-          </Row>
+            </div>
+          </div>
         </div>
       )}
     </>

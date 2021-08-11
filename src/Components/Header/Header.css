@@ -27,12 +27,35 @@
 .menu-col1{
     background-color: #F4F4F4;
     height: 100vh;
+    width: 35vw;
 }
 .menu-col2{
     background-color: #F0F0F0;
     height: 100vh;
+    width: 65vw;
     position: relative;
 }
+@media only screen and (max-width:767px){
+    .menu-col1 {
+     width: 100vw;
+     height: 50vh;
+    }
+    .menu-col2 {
+     width: 100vw;
+     height: 50vh;
+     }
+     .menu-label{
+        margin-top: 8%;
+        margin-left: 40%;
+        padding-top: 8%;
+    }
+    .menu-image {
+        margin-right: 0%;
+        margin-top: 1%;
+    }
+  }
+
+
 .menu-image{
     width: 300px;
     height: 300px;

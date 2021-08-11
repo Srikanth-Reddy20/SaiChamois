@@ -6,7 +6,7 @@ function Chamoissection5(props) {
     return (
         <div style={props.style}>
             <Products2 />
-            <Ourpartners />
+        
         </div>
     )
 }
