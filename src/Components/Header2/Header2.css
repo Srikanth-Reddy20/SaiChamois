@@ -21,6 +21,12 @@
         font-size: 65px;
     }
   }
+  @media only screen and (max-width:1042px){
+    .fancy {
+        font-size: 90%;
+      }
+  }
+
   @media only screen and (max-width:700px){
     .icon{
         font-size: 33px;
@@ -51,10 +57,12 @@
 .menu-col1{
     background-color: #F4F4F4;
     height: 100vh;
+    width: 35vw;
 }
 .menu-col2{
     background-color: #F0F0F0;
     height: 100vh;
+    width: 65vw;
     position: relative;
 }
 .menu-image{
@@ -92,6 +100,11 @@
     margin-left: 55%;
     line-height: 3;
 }
+@media only screen and (max-width:809px){
+    .menu-label{
+        margin-left: 40%;
+    }
+  }
 .top-bar-fixed{
     position: fixed;
     background-color: #fff;

@@ -41,8 +41,7 @@ function Partnercarousel() {
         
       <div className='carousel-image' id="leathertypes">
         <Partnerslider images={LARGE_IMAGES} />
-        
-      </div> 
+      </div>
   
         </>
     )

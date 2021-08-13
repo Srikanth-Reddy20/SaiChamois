@@ -56,8 +56,8 @@ text-align: center;
     text-align: center;
 }
 .circle1{
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
     background: #343434;
     border-radius: 70px;
     position: absolute;
@@ -66,8 +66,8 @@ text-align: center;
 }
 
 .circle2{
-    width: 225px;
-    height: 225px;
+    width: 180px;
+    height: 180px;
     background: #343434;
     border-radius: 130px;
     position: absolute;
@@ -75,8 +75,8 @@ text-align: center;
     left: 16%;
 }
 .circle3{
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
     background: #343434;
     border-radius: 150px;
     position: absolute;
@@ -85,8 +85,8 @@ text-align: center;
     transform: translateX(-50%);
 }
 .circle4{
-    width: 225px;
-    height: 225px;
+    width: 180px;
+    height: 180px;
     background: #343434;
     border-radius: 130px;
     position: absolute;
@@ -94,13 +94,97 @@ text-align: center;
     right: 16%;
 }
 .circle5{
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
     background: #343434;
     border-radius: 70px;
     position: absolute;
     bottom: 15%;
     right: 6%;
+}
+
+@media only screen and (max-width:1068px){
+    .circle1{
+        width: 100px;
+        height: 100px;
+        bottom: 15%;
+        left: 6%;
+    }
+    
+    .circle2{
+        width: 160px;
+        height: 160px;
+        bottom: 38%;
+        left: 16%;
+    }
+    .circle3{
+        width: 230px;
+        height: 230px;
+        bottom: 52%;
+        left: 50%;
+    }
+    .circle4{
+        width: 160px;
+        height: 160px;
+        bottom: 38%;
+        right: 16%;
+    }
+    .circle5{
+        width: 100px;
+        height: 100px;
+        bottom: 15%;
+        right: 6%;
+    }
+}
+
+@media only screen and (max-width:980px){
+    .circle1{
+        width: 90px;
+        height: 90px;
+        bottom: 17%;
+        left: 7%;
+    }
+    
+    .circle2{
+        width: 130px;
+        height: 130px;
+        bottom: 41%;
+        left: 16%;
+    }
+    .circle3{
+        width: 200px;
+        height: 200px;
+        bottom: 55%;
+        left: 50%;
+    }
+    .circle4{
+        width: 130px;
+        height: 130px;
+        bottom: 41%;
+        right: 16%;
+    }
+    .circle5{
+        width: 90px;
+        height: 90px;
+        bottom: 17%;
+        right: 7%;
+    }
+}
+
+@media only screen and (max-width:760px){
+    .circle1{
+        left: 5%;
+    }
+    
+    .circle2{
+        left: 12%;
+    }
+    .circle4{
+        right: 12%;
+    }
+    .circle5{
+        right: 5%;
+    }
 }
 
 @media only screen and (max-width:700px){

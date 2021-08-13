@@ -9,6 +9,12 @@
   padding: 2% 20%;
   height: 20vh;
 }
+@media only screen and (max-width:789px){
+  .natural-para2 {
+      font-size: 18px;
+      padding: 2% 15%;
+  }
+}
 @media only screen and (max-width:700px){
     .natural-para2 {
         font-size: 12px;
@@ -59,7 +65,8 @@
     }
   }
 .natural-container2{
-    background: url("./natural.jpeg");background-repeat: no-repeat;
+    background: url("../Natural/chamois-natural.jpeg");
+    background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
     font-family: 'Arvo-Regular';

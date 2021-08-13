@@ -38,19 +38,41 @@
   .carousel-img{
     width: 380px;
   }
+  
 
-  @media only screen and (max-width:1023px){
-    .image-content{
-      font-size: 20px;
-      text-align: center;
-      width: 80%;
-      position: relative;
-      padding-top: 5%;
-      left: 10%;
-      padding-bottom: 3%;
-    }
+  @media only screen and (max-width:1200px){
+      .image-content{
+        font-size: 19px;
+        padding-top: 5%;
+      }
+      .image-heading{
+        font-size: 3rem;
+      }
   }
 
+  @media only screen and (max-width:900px){
+    .carousel-img{
+      width: 300px;
+    }
+    .image-content{
+      font-size: 14px;
+    }
+    .image-heading{
+      font-size: 2.2rem;
+    }
+}
+
+@media only screen and (max-width:740px){
+  .carousel-img{
+    width: 280px;
+  }
+  .image-content{
+    font-size: 13px;
+  }
+  .image-heading{
+    font-size: 2rem;
+  }
+}
 
   @media only screen and (max-width:700px){
     .carousel-img{
@@ -62,6 +84,8 @@
       }
       .image-content{
         font-size: 11px;
+        padding-top: 5%;
+        padding-bottom: 3%;
       }
   }
 
