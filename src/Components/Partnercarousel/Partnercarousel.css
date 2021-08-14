@@ -1,0 +1,22 @@
+
+.partner-section{
+    padding-top: 13%;
+}
+.partnercarousel-image2{
+    background-color: #f1f1f1;
+    height: 60vh;
+    position: relative;
+}
+.partnerback-imgdiv{
+    position: absolute;
+    z-index: 0;
+    margin: 0% 25%;
+    text-align: center;
+    height: 60vh;
+    width: 50vw;
+}
+.partnerback-image{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}

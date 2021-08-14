@@ -6,7 +6,7 @@ import "./Partnerslider.css";
 
 const NextArrow = ({ onClick }) => {
   return (
-    <div className="nextArrow Arrow-bg" onClick={onClick}>
+    <div className="partnernextArrow partnerArrow-bg" onClick={onClick}>
       <BsChevronRight />
     </div>
   );
@@ -14,7 +14,7 @@ const NextArrow = ({ onClick }) => {
 
 const PrevArrow = ({ onClick }) => {
   return (
-    <div className="prevArrow Arrow-bg" onClick={onClick}>
+    <div className="partnerprevArrow partnerArrow-bg" onClick={onClick}>
       <BsChevronLeft />
     </div>
   );
@@ -59,11 +59,12 @@ const Partnerslider = ({ images, slidesToShow = 3 }) => {
         <div
           className={idx === imageIndex ? "activeSlide" : "slidetype"}
           key={image.id}>
-          <div className="image-head-div"><div className="image-heading">{image.head}</div></div>
-          <div className="slideWrapper">
-            {image.code ? image.code : <img src={image.src} alt={image.alt}  className="carousel-img" />}
+        
+          <div className="partnerslideWrapper">
+            {image.code ? image.code : <img src={image.src} alt={image.alt}  className="partnercarousel-img" />}
+            <span className="partner-text">{image.content}</span>
           </div>
-          <div className="image-content">{image.content}</div>
+          
         </div>
       );
     }
