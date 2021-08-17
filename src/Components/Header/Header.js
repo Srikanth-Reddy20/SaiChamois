@@ -4,7 +4,7 @@ import "./Header.css";
 import { FaGripLines } from "react-icons/fa";
 import { FcCloseUpMode, FcBiomass } from "react-icons/fc";
 import { FaTimes } from "react-icons/fa";
-import logo from "../Assets/saichamois-logo.jpeg";
+import logo from "../../assets/images/logo-transparent.png";
 import goldrated from "../Assets/saichamois-goldrated.jpeg";
 import menuimg from "./Leather-2.jpg";
 import menuimg1 from "./antiviral-chamois.jpeg";
@@ -30,7 +30,7 @@ function Header() {
       <Container className={navClass} fluid>
         <Row className="header-row">
           <Col className="header-col">
-            <img src={logo} className="icon" />
+            <img src={logo} className="icon1" />
           </Col>
           <Col className="header-col">
             {!menuShow ? (

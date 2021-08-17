@@ -6,7 +6,7 @@ import { FcCloseUpMode, FcBiomass } from "react-icons/fc";
 import { FaTimes } from "react-icons/fa";
 import menuimg from "./Leather-2.jpg";
 import { Link } from "react-router-dom";
-import logo from "../Assets/saichamois-logo.jpeg";
+import logo from "../../assets/images/logo-transparent.png";
 import goldrated from "../Assets/saichamois-goldrated.jpeg";
 import menuimg1 from "../Header/Leather-1.jpg";
 import menuimg2 from "../Header/traditional-chamois.jpeg";
@@ -39,7 +39,7 @@ function Header2() {
  <Container className={navClass} fluid>
         <Row className="header-row">
           <Col className="header-col">
-          <img src={logo} className="icon" />
+          <img src={logo} className="icon1" />
           </Col>
           <Col className="header-col">
             {!menuShow ? (
