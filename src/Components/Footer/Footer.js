@@ -11,15 +11,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function footer() {
 
   function sendEmail(e) {
-  e.preventDefault();
+    e.preventDefault();
 
-  emailjs.sendForm('gmail', 'template_9fbzfb8', e.target, 'user_ZzaKmQDl81SHC8QRn0GWf')
+  emailjs.sendForm('service_g4cxtms', 'template_9fbzfb8', e.target, 'user_ZzaKmQDl81SHC8QRn0GWf')
     .then((result) => {
-        console.log(result.text);
+        alert('Your message has been sent.');
     }, (error) => {
-        console.log(error.text);
+        alert(`Error: ${error.message}`);
     });
-    e.target.reset()
+    e.target.reset();
   }
     return (
         <>
@@ -54,11 +54,11 @@ function footer() {
               </div>  
             </div>
                   <div className="d-flex justify-content-center footer-back col-7">
-                  <Form className="form" onSubmit={sendEmail}>
+                  <Form className="form" onSubmit={e => {sendEmail(e)}}>
                     <Form.Group controlId="formBasicEmail">
                       <Form.Control type="text" placeholder="Full Name" className="input-field" name="name" />
                       <Form.Control type="email" placeholder="Email" className="input-field" name="email" />
-                      <Form.Control type="number" placeholder="Phone" className="input-field" name="mobile" />
+                      <Form.Control type="number" placeholder="Phone" className="input-field" name="phone" />
                       <Form.Control as="textarea" rows={3} placeholder="Message" className="input-field" name="message" />
                     </Form.Group>
                     <Button variant="dark" className="form-but" type="submit" value="Send Message">Submit</Button>
