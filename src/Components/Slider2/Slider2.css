@@ -1,6 +1,6 @@
 .slider2-image{
     /* clip-path: polygon(0% 0%, 100% 0%, 55% 100%, 0% 100%); */
-    background: url("./Leather-1.jpeg");
+    background: url("../../assets/images/naked-sheep.webp");
     height: 90vh;
     background-size: cover;
     position: relative;

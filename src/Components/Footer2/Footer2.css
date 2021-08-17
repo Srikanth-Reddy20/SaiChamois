@@ -21,7 +21,7 @@
     position: relative;
     padding: 10% 0 20%;
     clip-path: polygon(100% 0, 100% 79%, 60% 79%, 43% 88%, 18% 89%, 0 100%, 0 0);
-    background: url("./footerimg.png");
+    background: url("../../assets/images/saichamois-footer.jpeg");
     background-size: cover;
 }
 .form2{
@@ -66,6 +66,13 @@
     align-items: center;
     height: 100%;
     transform: rotate(-90deg);
+}
+
+.contactno{
+    color: #000;
+}
+.email{
+    color: #000;
 }
 @media only screen and (max-width:480px){
     .footer2-back{

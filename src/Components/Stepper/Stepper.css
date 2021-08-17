@@ -22,7 +22,7 @@
   border-bottom-left-radius:0;
 }
 .timeline-back{
-  background-image: url("./Leather-2.jpg");
+  background-image: url("../../assets/images/slink-lamb.webp");
   background-size: cover;
 }
 
@@ -50,16 +50,8 @@
     height: 45px;
   }
 }
-.stepper:hover .stepper-img{
-  width: 100px;
-  height: 100px;
-}
-@media only screen and (max-width:480px){
-  .stepper:hover .stepper-img{
-    width: 55px;
-    height: 55px;
-  }
-}
+
+
 /* .stepper-img{
   width: 90px;
   height: 90px;
@@ -103,10 +95,6 @@ align-items: center;
 
 
 
-.timeline-back{
-  background-image: url("./Leather-2.jpg");
-  background-size: cover;
-}
 
 
 

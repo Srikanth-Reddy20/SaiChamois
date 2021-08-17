@@ -4,6 +4,8 @@ import "./Header.css";
 import { FaGripLines } from "react-icons/fa";
 import { FcCloseUpMode, FcBiomass } from "react-icons/fc";
 import { FaTimes } from "react-icons/fa";
+import logo from "../Assets/saichamois-logo.jpeg";
+import goldrated from "../Assets/saichamois-goldrated.jpeg";
 import menuimg from "./Leather-2.jpg";
 import menuimg1 from "./antiviral-chamois.jpeg";
 import menuimg2 from "./traditional-chamois.jpeg";
@@ -28,7 +30,7 @@ function Header() {
       <Container className={navClass} fluid>
         <Row className="header-row">
           <Col className="header-col">
-            <FcCloseUpMode className="icon" />
+            <img src={logo} className="icon" />
           </Col>
           <Col className="header-col">
             {!menuShow ? (
@@ -38,7 +40,7 @@ function Header() {
             )}{" "}
           </Col>
           <Col className="header-col">
-            <FcBiomass className="icon" />
+          <img src={goldrated} className="icon" />
           </Col>
         </Row>
       </Container>

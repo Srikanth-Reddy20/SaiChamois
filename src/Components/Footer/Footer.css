@@ -12,6 +12,12 @@
     margin-right: 15px;
     font-size: 1.5rem;
 }
+.contactno{
+    color: #000;
+}
+.email{
+    color: #000;
+}
 @media only screen and (min-width:1400px) and (max-width:2000px){
     .contact-icon{
         font-size: 2.5rem;
@@ -19,8 +25,8 @@
   }
 .input-field{
     margin-bottom: 8px;
-    background-color: black;
-    border-color: black;
+    background-color: white;
+    border-color: white;
 }
 .form-but{
     float: right;
@@ -40,7 +46,7 @@
   }
 .footer-back{
     clip-path: polygon(16% 0, 100% 0, 100% 100%, 3% 100%, 12% 78%, 12% 45%, 0 20%);
-    background: url("./footerimg.png");
+    background: url("../../assets/images/saichamois-footer.jpeg");
     background-size: cover;
     padding: 5% 0;
 }

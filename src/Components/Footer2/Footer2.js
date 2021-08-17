@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Container, Row, Col, Button, Form} from 'react-bootstrap';
 import './Footer2.css';
 import { FaTelegramPlane, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
@@ -32,13 +33,13 @@ function Footer2() {
                 </div>
                 <div className="d-flex align-content-center align-items-center 
                 footer-text2"><FaPhoneAlt  className="contact-icon"/>
-                  <p>0091-44-22381480 <br />
-                 0091-9381010953 </p>
+                   <p><Link to="tel:0091-44-22381480" className="contactno">0091-44-22381480 </Link><br />
+                  <Link to="tel:0091-9381010953" className="contactno">0091-9381010953</Link> </p>
                  
                 </div>
                 <div className="d-flex align-content-center align-items-center 
                 footer-text2"><FaTelegramPlane  className="contact-icon"/>
-                  <p>rajha.saichamois@gmail.com
+                   <p><Link to="mailto:rajha.saichamois@gmail.com" className="email">rajha.saichamois@gmail.com</Link>
                   </p>
                 </div>
                 <div className="copyright-text">

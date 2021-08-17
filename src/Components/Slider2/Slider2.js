@@ -12,7 +12,7 @@ function Slider2() {
           <Col className="slider2-image">
             <div className="bx">
               <div className="bx1">
-                EXQUISITE NATURAL NEW ZEALAND LEATHERS WITH PREMIUM INTERNATIONAL QUALITY
+                EXQUISITE NATURAL NEWZEALAND FINISHED LEATHERS WITH PREMIUM INTERNATIONAL QUALITY
                 <div className="triangle-bottomright"></div>
               </div>
               <div className="bx2">
