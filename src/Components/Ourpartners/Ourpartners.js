@@ -8,10 +8,10 @@ function Ourpartners() {
 
         
                <marquee className="partner-head">
-                    &bull; OUR PARTNERS &bull; OUR PARTNERS &bull; OUR PARTNERS 
-                    &bull; OUR PARTNERS
-                    &bull; OUR PARTNERS &bull; OUR PARTNERS &bull; OUR PARTNERS &bull; OUR PARTNERS
-                    &bull; OUR PARTNERS &bull; OUR PARTNERS
+                    &bull; SALES AND DISTRIBUTORS &bull; SALES AND DISTRIBUTORS &bull; SALES AND DISTRIBUTORS 
+                    &bull; SALES AND DISTRIBUTORS
+                    &bull; SALES AND DISTRIBUTORS &bull; SALES AND DISTRIBUTORS &bull; SALES AND DISTRIBUTORS &bull; SALES AND DISTRIBUTORS
+                    &bull; SALES AND DISTRIBUTORS &bull; SALES AND DISTRIBUTORS
                 </marquee>
             
         </div>

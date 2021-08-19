@@ -5,7 +5,7 @@ import stepperimage from './points.png';
 function Stepper2() {
     return (
         <>
-             <div className="timeline-back align-content-center align-items-center" id="timeline2">
+             <div className="timeline-back2 align-content-center align-items-center" id="timeline2">
                 <div className="main">
                   <div className="stepper stepper1 c">
                   </div>

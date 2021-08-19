@@ -38,13 +38,13 @@ function footer() {
                 </div>
                 <div className="d-flex align-content-center align-items-center 
                 footer-text"><FaPhoneAlt  className="contact-icon"/>
-                  <p><Link to="tel:0091-44-22381480" className="contactno">0091-44-22381480 </Link><br />
-                  <Link to="tel:0091-9381010953" className="contactno">0091-9381010953</Link> </p>
+                  <p><a href="tel:0091-44-22381480" className="contactno">0091-44-22381480 </a><br />
+                  <a href="tel:0091-9381010953" className="contactno">0091-9381010953</a> </p>
                  
                 </div>
                 <div className="d-flex align-content-center align-items-center 
                 footer-text"><FaTelegramPlane  className="contact-icon"/>
-                  <p><Link to="mailto:rajha.saichamois@gmail.com" className="email">rajha.saichamois@gmail.com</Link>
+                  <p><a href="mailto:rajha.saichamois@gmail.com" className="email">rajha.saichamois@gmail.com</a>
                   </p>
                 </div>
                 <div>
