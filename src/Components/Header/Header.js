@@ -4,7 +4,7 @@ import "./Header.css";
 import { FaGripLines } from "react-icons/fa";
 import { FcCloseUpMode, FcBiomass } from "react-icons/fc";
 import { FaTimes } from "react-icons/fa";
-import logo from "../../assets/images/logo-transparent.png";
+import logo from "../../assets/images/logo-trans.png";
 import goldrated from "../Assets/saichamois-goldrated.jpeg";
 import menuimg from "./Leather-2.jpg";
 import menuimg1 from "./antiviral-chamois.jpeg";
