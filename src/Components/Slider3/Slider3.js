@@ -12,7 +12,7 @@ function Slider3() {
           <Col className="slider3-image">
             <div className="bx">
               <div className="bx1">
-                PREMIUM CHAMOIS PRODUCED AND PROCESSED FROM NEW ZEALAND SKINS AND HiDES
+                PREMIUM CHAMOIS PRODUCED AND PROCESSED FROM NEW ZEALAND SKINS AND HIDES
                 <div className="triangle-bottomright"></div>
               </div>
               <div className="bx2">
