@@ -16,7 +16,7 @@ import LeatherPage from "./Pages/LeatherPage/LeatherPage";
 function App() {
   return (
     <>
-      <HashRouter>
+      <HashRouter hashType="noslash">
           <Switch>
             <Route path="/" component={LandingPage} exact />
             <Route path="/Chamois" component={ChamoisPage} />
