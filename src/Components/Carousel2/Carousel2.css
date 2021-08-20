@@ -63,9 +63,19 @@
     }
 }
 
+@media only screen and (max-width:820px){
+  .image-content{
+    width: 80%;
+    left: 10%;
+    position: relative;
+  }
+}
+
+
 @media only screen and (max-width:740px){
   .carousel-img{
     width: 280px;
+    height: 200px;
   }
   .image-content{
     font-size: 13px;
@@ -93,6 +103,7 @@
   @media only screen and (max-width:604px){
     .carousel-img{
         width: 200px;
+        height: 150px;
       }
       .image-heading{
         letter-spacing: 5px;
@@ -106,6 +117,7 @@
   @media only screen and (max-width:511px){
     .carousel-img{
         width: 160px;
+        height: 100px;
       }
       .image-heading{
         letter-spacing: 3px;

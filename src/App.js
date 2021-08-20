@@ -5,7 +5,7 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import Slider from "./Components/Slider/Slider";
 import LandingPage from "./Pages/LandingPage/LandingPage";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Slider2 from "./Components/Slider2/Slider2";
 import Products from "./Components/Products/Products";
 import Leathertypes from "./Components/Leathertypes/Leathertypes";
@@ -16,13 +16,13 @@ import LeatherPage from "./Pages/LeatherPage/LeatherPage";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
           <Switch>
             <Route path="/" component={LandingPage} exact />
             <Route path="/Chamois" component={ChamoisPage} />
             <Route path="/Leather" component={LeatherPage} />
           </Switch>
-        </BrowserRouter>
+        </HashRouter>
       
     </>
   );
