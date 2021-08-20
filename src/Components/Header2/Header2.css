@@ -17,6 +17,10 @@
     width: 10%;
     height: 100%;
 }
+.header-col{
+    padding: 1%;
+    height: 10vh;
+}
 @media only screen and (min-width:1400px) and (max-width:2000px){
     .icon{
         font-size: 65px;
@@ -28,34 +32,61 @@
       }
   }
 
-  @media only screen and (max-width:700px){
+  
+  @media only screen and (max-width:800px){
     .icon{
-        font-size: 33px;
+        width: 14%;
     }
-    .top-bar{
-        height: 8vh;
+    .icon1{
+        width: 22%;
     }
   }
+
+  @media only screen and (max-width:700px){
+    .icon{
+        width: 19%;
+    }
+    .icon1{
+        width: 27%;
+    }
+  }
+
+  
+  @media only screen and (max-width:590px){
+    .icon{
+        width: 20%;
+    }
+  }
+
+  @media only screen and (max-width:500px){
+    .icon{
+        width: 23%;
+    }
+    .icon1{
+        width: 35%;
+    }
+  }
+
   @media only screen and (max-width:400px){
     .icon{
-        font-size: 27px;
+        width: 28%;
     }
-    .top-bar{
-        height: 6vh;
+    .icon1{
+        width: 43%;
     }
   }
   @media only screen and (max-width:300px){
     .icon{
         font-size: 20px;
     }
-    .top-bar{
-        height: 6vh;
+    .icon{
+        width: 34%;
+    }
+    .icon1{
+        width: 50%;
     }
   }
-.header-col{
-    padding: 1%;
-    height: 10vh;
-}
+
 .menu-col1{
     background-color: #F4F4F4;
     height: 100vh;

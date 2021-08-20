@@ -18,7 +18,7 @@
     height: 100%;
 }
 .icon1{
-    width: 14%;
+    width: 16%;
     height: 100%;
 }
 @media only screen and (min-width:1400px) and (max-width:2000px){
@@ -26,10 +26,7 @@
         font-size: 65px;
     }
   }
-.header-col{
-    padding: 1%;
-    height: 10vh;
-}
+
 .menu-col1{
     background-color: #F4F4F4;
     height: 100vh;
