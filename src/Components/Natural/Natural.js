@@ -7,7 +7,7 @@ function Natural() {
         <>
 
         <Container className="natural-container" fluid>
-        <div className="natural-heading" >natural</div>
+        <div >natural</div>
             <div className="natural-row">
             <p className="natural-para">We combine time honoured tanning techniques with the most modern production
                 processes to deliver the finest quality&nbsp; 
