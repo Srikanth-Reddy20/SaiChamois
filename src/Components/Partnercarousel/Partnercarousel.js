@@ -33,7 +33,7 @@ function Partnercarousel() {
           <div className="partnerback-imgdiv">
           <img src={partnerback}  className="partnerback-image" />
           </div>
-      <div className="partner-section" id="leathertypes" style={{display:'flex', justifyContent:"space-around", position:"absolute", width:'100%'}}>
+      <div className="partner-section" id="leathertypes">
       <div style={{margin:'1%'}}>
         
         <div className="partnerslideWrapper">
