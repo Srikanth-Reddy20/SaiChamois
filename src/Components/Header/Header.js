@@ -28,7 +28,8 @@ function Header() {
   return (
     <>
       <Container className={navClass} fluid>
-        <Row className="header-row">
+        <Row className="header-row d-flex justify-content-center 
+              align-content-center align-items-center">
           <Col className="header-col">
             <img src={logo} className="icon1" />
           </Col>
