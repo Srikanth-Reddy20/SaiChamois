@@ -4,14 +4,14 @@ import "./Header3.css";
 import { FaGripLines } from "react-icons/fa";
 import { FcCloseUpMode, FcBiomass } from "react-icons/fc";
 import { FaTimes } from "react-icons/fa";
-import menuimg from "./Leather-2.jpg";
+import menuimg from "../../assets/images/Leather-2.jpg";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo-trans.png";
-import goldrated from "../Assets/saichamois-goldrated.jpeg";
-import menuimg1 from "../Header/Leather-1.jpg";
-import menuimg2 from "../Header/traditional-chamois.jpeg";
-import menuimg3 from "../Header/footerimg.png";
-import menuimg4 from "../Header/antiviral-chamois.jpeg";
+import goldrated from "../../assets/images/saichamois-goldrated.jpeg";
+import menuimg1 from "../../assets/images/Leather-1.jpg";
+import menuimg2 from "../../assets/images/traditional-chamois.jpeg";
+import menuimg3 from "../../assets/images/footerimg.png";
+import menuimg4 from "../../assets/images/antiviral-chamois.jpeg";
 
 function Header3() {
   const footerLink = () => {

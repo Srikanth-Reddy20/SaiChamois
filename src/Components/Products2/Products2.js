@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col, Button, Carousel } from "react-bootstrap";
-import back from "./Design.jpg";
 import "./Products2.css";
 
 function Products2() {

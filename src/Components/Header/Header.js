@@ -5,12 +5,12 @@ import { FaGripLines } from "react-icons/fa";
 import { FcCloseUpMode, FcBiomass } from "react-icons/fc";
 import { FaTimes } from "react-icons/fa";
 import logo from "../../assets/images/logo-trans.png";
-import goldrated from "../Assets/saichamois-goldrated.jpeg";
-import menuimg from "./Leather-2.jpg";
-import menuimg1 from "./antiviral-chamois.jpeg";
-import menuimg2 from "./traditional-chamois.jpeg";
-import menuimg3 from "./footerimg.png";
-import menuimg4 from "./Leather-1.jpg";
+import goldrated from "../../assets/images/saichamois-goldrated.jpeg";
+import menuimg from "../../assets/images/Leather-2.jpg";
+import menuimg1 from "../../assets/images/antiviral-chamois.jpeg";
+import menuimg2 from "../../assets/images/traditional-chamois.jpeg";
+import menuimg3 from "../../assets/images/footerimg.png";
+import menuimg4 from "../../assets/images/Leather-1.jpg";
 import { Link } from "react-router-dom";
 
 function Header() {

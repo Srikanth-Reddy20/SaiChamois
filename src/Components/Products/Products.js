@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button, Carousel } from "react-bootstrap";
-import back from "./Design.jpg";
+
 // import $ from 'js/jquery.hislide.js';
 import "./Products.css";
 

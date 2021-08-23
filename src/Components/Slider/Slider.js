@@ -1,8 +1,8 @@
 import React from 'react'
 import './Slider.css';
 import { Container, Row, Col, Button} from 'react-bootstrap';
-import Chaimage from './Cha2.svg';
-import Leaimage from './Lea2.svg';
+import Chaimage from '../../assets/images/Cha2.svg';
+import Leaimage from '../../assets/images/Lea2.svg';
 import { Link } from "react-router-dom";
 
 function Slider() {

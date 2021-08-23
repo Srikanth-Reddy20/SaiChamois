@@ -1,5 +1,4 @@
 import React from "react";
-import sliderimage from "./Leather-1.jpg";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./Slider2.css";
 import upperimage from "../../assets/images/logo-trans.png";

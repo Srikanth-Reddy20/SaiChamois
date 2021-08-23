@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
 import './Stepper.css';
-import stepperimage from './points.png';
 
 function Stepper() {
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Partnercarousel.css';
 import Partnerslider from '../Partnerslider';
-import partnerback from './chamois-ourpartners.jpeg';
+import partnerback from '../../assets/images/chamois-ourpartners.jpeg';
 import nzlLogo from '../../assets/images/nzl-logo.webp';
 import jntBeaven from '../../assets/images/jnt-beaven.png';
 

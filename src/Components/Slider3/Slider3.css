@@ -1,6 +1,6 @@
 .slider3-image{
   /* clip-path: polygon(0% 0%, 100% 0%, 55% 100%, 0% 100%); */
-  background: url("../Header/traditional-chamois.jpeg");
+  background: url("../../assets/images/traditional-chamois.jpeg");
   height: 90vh;
   background-size: cover;
   position: relative;

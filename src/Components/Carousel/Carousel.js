@@ -1,8 +1,7 @@
 import React from 'react'
 import './Carousel.css';
 import ImageSlider from '../ImageSlider'
-import slide from './Leather-1.jpg';
-import deer from './Deer.jpeg'
+
 import { Container } from 'react-bootstrap';
 
 
