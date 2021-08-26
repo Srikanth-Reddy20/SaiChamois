@@ -1,15 +1,13 @@
 import React from 'react'
-import Footer from '../Footer/Footer'
 import Ourpartners from '../Ourpartners/Ourpartners'
-import Partnercarousel from '../Partnercarousel/Partnercarousel'
+import Partnercarousel2 from '../Partnercarousel2/Partnercarousel2'
 
 
 function Leathersection6(props) {
     return (
         <div style={props.style}>
             <Ourpartners />
-            <Partnercarousel />
-             <Footer />
+            <Partnercarousel2 />
         </div>
     )
 }

@@ -4,13 +4,13 @@ import "./Header2.css";
 import { FaGripLines } from "react-icons/fa";
 import { FcCloseUpMode, FcBiomass } from "react-icons/fc";
 import { FaTimes } from "react-icons/fa";
-import menuimg from "../../assets/images/Leather-2.jpg";
+import menuimg from "../../assets/images/naked-sheep.webp";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo-trans.png";
 import goldrated from "../../assets/images/saichamois-goldrated.jpeg";
-import menuimg1 from "../../assets/images/Leather-1.jpg";
+import menuimg1 from "../../assets/images/bavarian-deer.webp";
 import menuimg2 from "../../assets/images/traditional-chamois.jpeg";
-import menuimg3 from "../../assets/images/footerimg.png";
+import menuimg3 from "../../assets/images/naked-goat.webp";
 import menuimg4 from "../../assets/images/antiviral-chamois.jpeg";
 
 function Header2() {

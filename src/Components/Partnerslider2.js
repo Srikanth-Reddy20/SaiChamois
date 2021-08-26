@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
-import "./ImageSlider.css";
+import "./Partnerslider2.css";
 
 const NextArrow = ({ onClick }) => {
   return (
-    <div className="nextArrow Arrow-bg" onClick={onClick}>
+    <div className="partnernextArrow partnerArrow-bg" onClick={onClick}>
       <BsChevronRight />
     </div>
   );
@@ -14,13 +14,13 @@ const NextArrow = ({ onClick }) => {
 
 const PrevArrow = ({ onClick }) => {
   return (
-    <div className="prevArrow Arrow-bg" onClick={onClick}>
+    <div className="partnerprevArrow partnerArrow-bg" onClick={onClick}>
       <BsChevronLeft />
     </div>
   );
 };
 
-const ImageSlider = ({ images, slidesToShow = 3 }) => {
+const Partnerslider2 = ({ images, slidesToShow = 3 }) => {
   const [imageIndex, setImageIndex] = useState(0);
 
   const settings = {
@@ -59,13 +59,12 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
         <div
           className={idx === imageIndex ? "activeSlide" : "slidetype"}
           key={image.id}>
-          {
-            idx === imageIndex && <div className="image-head-div"><div className="image-heading">{image.head}</div></div>
-          }
-          <div className="slideWrapper">
-            {image.code ? image.code : <img src={image.src} alt={image.alt}  className="carousel-img" />}
+        
+          <div className="partnerslideWrapper">
+            {image.code ? image.code : <img src={image.src} alt={image.alt}  className="partnercarousel-img" />}
+            <span className="partner-text">{image.content}</span>
           </div>
-          <div className="image-content">{image.content}</div>
+          
         </div>
       );
     }
@@ -75,4 +74,4 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
   return <Slider {...settings}>{templateImages}</Slider>;
 };
 
-export default ImageSlider;
+export default Partnerslider2;

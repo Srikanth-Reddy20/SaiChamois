@@ -34,7 +34,7 @@ function Carousel() {
           id: 4,
           src: "/assets/images/eco-lamb.webp",
           alt: "Placeholder image",
-          head: "ECO LAMB",
+          head: "ECO   LAMB",
           content: "Our Eco Lamb nappa is produced using a revolutionary chrome-free process, enabling a full range of colours, including white. This suede is produced with a tannage developed with a combination of natural oils and cashew extracts, ideal for next-to-skin usage",
         
         },

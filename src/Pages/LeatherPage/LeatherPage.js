@@ -6,6 +6,7 @@ import Leathersection3 from '../../Components/Leather/Leathersection3'
 import Leathersection4 from '../../Components/Leather/Leathersection4'
 import Leathersection5 from '../../Components/Leather/Leathersection5'
 import Leathersection6 from '../../Components/Leather/Leathersection6'
+import Leathersection7 from '../../Components/Leather/Leathersection7'
 
 function LeatherPage() {
     return (
@@ -34,6 +35,10 @@ function LeatherPage() {
             }} />
             <Leathersection6 style={{
                 scrollSnapAlign: "start",
+                scrollSnapStop: "normal"
+            }} />
+            <Leathersection7 style={{
+                scrollSnapAlign: "end",
                 scrollSnapStop: "normal"
             }} />
 

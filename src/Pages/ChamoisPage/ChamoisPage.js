@@ -6,6 +6,7 @@ import Chamoissection3 from '../../Components/Chamois/Chamoissection3'
 import Chamoissection4 from '../../Components/Chamois/Chamoissection4'
 import Chamoissection5 from '../../Components/Chamois/Chamoissection5'
 import Chamoissection6 from '../../Components/Chamois/Chamoissection6'
+import Chamoissection7 from '../../Components/Chamois/Chamoissection7'
 
 function ChamoisPage() {
     return (
@@ -35,6 +36,10 @@ function ChamoisPage() {
             }} />
             <Chamoissection6 style={{
                 scrollSnapAlign: "start",
+                scrollSnapStop: "normal"
+            }} />
+            <Chamoissection7 style={{
+                scrollSnapAlign: "end",
                 scrollSnapStop: "normal"
             }} />
 

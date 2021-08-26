@@ -18,11 +18,7 @@
 .email{
     color: #000;
 }
-@media only screen and (min-width:1400px) and (max-width:2000px){
-    .contact-icon{
-        font-size: 2.5rem;
-    }
-  }
+
 .input-field{
     margin-bottom: 8px;
     background-color: white;
@@ -34,16 +30,8 @@
 .footer-text p{
  margin-top:1rem;
 }
-@media only screen and (min-width:1400px) and (max-width:2000px){
-    .footer-text p{
-        font-size: 30px;
-       }
-    }
-@media only screen and (min-width:1400px) and (max-width:2000px){
-    .rights{
-        font-size: 30px;
-       }
-  }
+
+
 .footer-back{
     clip-path: polygon(16% 0, 100% 0, 100% 100%, 3% 100%, 12% 78%, 12% 45%, 0 20%);
     background: url("../../assets/images/saichamois-footer.jpeg");
@@ -61,13 +49,27 @@
     background-color: black;
     border-color: black;
 }
-@media only screen and (min-width:1400px) and (max-width:2000px){
-    .form-control{
-        font-size: 1.8rem;
-    }
-  }
-  @media only screen and (min-width:1400px) and (max-width:2000px){
+
+  /* @media only screen and (min-width:1025px) and  (max-width:2000px){
     .btn{
-        font-size: 1.8rem;
+        font-size: 1.2rem;
     }
+    .form-control{
+        font-size: 1.2rem;
+    }
+    .rights{
+        font-size: 20px;
+       }
+       .contact-icon{
+        font-size: 2rem;
+    }
+    .footer-text p{
+        font-size: 20px;
+       }
+  } */
+
+  @media only screen and (min-width:1600px) and (max-width:2000px){
+      .footer-container{
+          height: 60vh;
+      }
   }

@@ -66,6 +66,11 @@
   }
 }
 
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
 .slidetype .image-heading{
 color: white ;
 -webkit-text-stroke-color: white;
