@@ -6,7 +6,7 @@ import { FcCloseUpMode, FcBiomass } from "react-icons/fc";
 import { FaTimes } from "react-icons/fa";
 import menuimg from "../../assets/images/naked-sheep.webp";
 import { Link } from "react-router-dom";
-import logo from "../../assets/images/logo-trans.png";
+import logo from "../../assets/images/saichamois-logo.png";
 import goldrated from "../../assets/images/saichamois-goldrated.jpeg";
 import menuimg1 from "../../assets/images/bavarian-deer.webp";
 import menuimg2 from "../../assets/images/traditional-chamois.jpeg";

@@ -23,19 +23,19 @@ function Partnercarousel2() {
              <img src={partnerback}  className="partnerback-image" />
              </div>
          <div className="partner-section" id="leathertypes">
-         <div style={{margin:'1%'}}>
            
            <div className="partnerslideWrapper">
-             <img src={LARGE_IMAGES[0].src} alt={LARGE_IMAGES[0].alt} className="partnercarousel-img" />
-             <div>
+           <div className="partner-imgdiv">
+             <img src={LARGE_IMAGES[0].src} alt={LARGE_IMAGES[0].alt} 
+             className="partnercarousel-img" />
+             </div>
+             <div className="partner-details">
                <div className="partner-text"> Name: {LARGE_IMAGES[0].name}</div>
                <div className="partner-text"> Telephone: {LARGE_IMAGES[0].tel}</div>
                <div className="partner-text"> Email: {LARGE_IMAGES[0].email}</div>
                <div className="partner-text"> Address: {LARGE_IMAGES[0].address}</div>
              </div>
            </div>
-           
-         </div>
 
          </div>
          </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "./Slider3.css";
-import upperimage from "../../assets/images/logo-trans.png";
+import Chaimage from '../../assets/images/Cha2.svg';
 
 function Slider3() {
     return (
@@ -12,11 +12,8 @@ function Slider3() {
             <div className="bx">
               <div className="bx1">
                 PREMIUM CHAMOIS PRODUCED AND PROCESSED FROM NEW ZEALAND SKINS AND HIDES
-                <div className="triangle-bottomright"></div>
-              </div>
-              <div className="bx2">
                 <img
-                  src={upperimage}
+                  src={Chaimage}
                   alt="upper-image"
                   className="slide2-icon"
                 />

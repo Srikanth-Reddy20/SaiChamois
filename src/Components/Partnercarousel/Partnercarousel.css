@@ -12,45 +12,59 @@
     position: relative;
 }
 .partnerback-imgdiv{
-    position: absolute;
-    z-index: 0;
-    margin: 0% 25%;
-    text-align: center;
-    height: 60vh;
-    width: 50vw;
+  position: absolute;
+  z-index: 0;
+  text-align: center;
+  height: 60vh;
+  opacity: 0.3;
+  width: 100%;
 }
 .partnerback-image{
-    border-radius: 50%;
     width: 100%;
     height: 100%;
 }
 
+.partner-details{
+  padding: 15px;
+}
+.partner-imgdiv{
+  width: 15vw;
+  align-items: center;
+  padding: 15px;
+  height: auto;
+  background-color: #cac1c1;
+}
 .partnercarousel-img{
-    width: 67px;
-    height: 67px;
-    border-radius: 50%;
-    padding: 5px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 5px;
   }
   
 
 @media only screen and (max-width:767px){
     .partner-section{
-        padding-top: 3%;
+        padding-top: 13%;
         flex-wrap: wrap;
+    }
+    .partner-imgdiv{
+      width: 20vw;
     }
   }
 
   @media only screen and (max-width:600px){
     .partner-section{
       font-size: 15px;
-      padding-top: 5%;
+      padding-top: 20%;
+    }
+    .partner-details{
+      font-size: 80%;
     }
   }
 
   @media only screen and (max-width:540px){
     .partner-section{
-      font-size: 13px;
-      padding-top: 10%;
+      padding-top: 25%;
     }
   }
 
@@ -59,32 +73,40 @@
         width: 80%;
         left: 10%;
     }
+    .partner-imgdiv{
+      width: 30vw;
+    }
+    .partner-details{
+      padding: 2%;
+    }
   }
 
   @media only screen and (max-width:430px){
-    .partner-section{
-        width: 80%;
-        left: 12%;
+    .partner-imgdiv{
+      width: 30vw;
     }
-    .partnercarousel-img {
-        width: 50px;
-        height: 50px;
+    .partner-section{
+      padding-top: 30%;
+    }
+  }
+
+  @media only screen and (max-width:372px){
+    .partner-section{
+      padding-top: 33;
     }
   }
 
 
-
-  @media only screen and (max-width:315px){
+  @media only screen and (max-width:326px){
     .partner-section{
-        font-size: 12px;
-        padding-top: 10%;
         width: 86%;
         left: 7%;
     }
+    .partner-imgdiv{
+      width: 40vw;  
+      }
   }
 
   @media only screen and (max-width:279px){
-    .partner-section{
-        font-size: 11px;
-    }
+
   }
