@@ -36,10 +36,15 @@
     clip-path: polygon(16% 0, 100% 0, 100% 100%, 3% 100%, 12% 78%, 12% 45%, 0 20%);
     background: url("../../assets/images/saichamois-footer.jpeg");
     background-size: cover;
-    padding: 5% 0;
+    padding: 8% 0;
+    height: 76vh;
+    position: relative;
+    top: -6vh;
 }
 .form{
-    width: 55%;
+    width: 40%;
+    position: relative;
+    right: 8%;
 }
 .address{
     padding: 5% 0;
