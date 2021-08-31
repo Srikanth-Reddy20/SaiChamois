@@ -16,12 +16,14 @@ function About() {
             </div>
             <div className="about-greysection">
                 <div class="content-div">
-                <div class="rightimage-div">
-                    <img src={rightimg} className="rgt-img" />
+                <div className="image-section1">
+                    <p className="para1"><span className="percent">100%</span> New Zealand Origin Bovine and Ovine 
+                    Skins Tannned with <span className="bold">Marine Fish Oils </span>
+                    in Traditional Processing Methods.</p>
+                    <div class="rightimage-div">
+                        <img src={rightimg} className="rgt-img" />
+                    </div>
                 </div>
-                <p className="para1"><span className="percent">100%</span> New Zealand Origin Bovine and Ovine 
-                Skins Tannned with <span className="bold">Marine Fish Oils </span>
-                in Traditional Processing Methods.</p>
                 <p className="para2"> New Zealand Origin Bovine and Ovine 
                 Skins Tannned with Marine Fish Oils
                 in Traditional Processing Methods. New Zealand Origin Bovine and Ovine 
@@ -43,6 +45,7 @@ function About() {
                 in Traditional Processing Methods.New Zealand Origin Bovine and Ovine 
                 Skins Tannned</p>
 
+                <div className="image-section2">
                 <div class="leftimage-div">
                     <img src={leftimg} className="lft-img" />
                 </div>
@@ -52,6 +55,7 @@ function About() {
                 Skins Tannned with Marine Fish Oils
                 in Traditional Processing Methods. New Zealand Origin Bovine and Ovine 
                 in Traditional Processing Methods.</p>
+                </div>
 
                 <p className="para4"> New Zealand Origin Bovine and Ovine 
                 Skins Tannned with Marine Fish Oils

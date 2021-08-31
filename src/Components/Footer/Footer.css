@@ -37,9 +37,9 @@
     background: url("../../assets/images/saichamois-footer.jpeg");
     background-size: cover;
     padding: 8% 0;
-    height: 76vh;
+    height: 75vh;
     position: relative;
-    top: -6vh;
+    top: -5vh;
 }
 .form{
     width: 40%;

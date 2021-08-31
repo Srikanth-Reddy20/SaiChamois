@@ -12,6 +12,7 @@ import menuimg1 from "../../assets/images/bavarian-deer.webp";
 import menuimg2 from "../../assets/images/traditional-chamois.jpeg";
 import menuimg3 from "../../assets/images/naked-goat.webp";
 import menuimg4 from "../../assets/images/antiviral-chamois.jpeg";
+import menuimg5 from "../../assets/images/saichamois-footer.jpeg";
 
 function Header2() {
   const footerLink = () => {
@@ -73,6 +74,10 @@ function Header2() {
                 <h4 onMouseOver={e => {showMenuImage(menuimg3)}} style={{cursor:"pointer"}} onClick={productsLink} className="subtitle4 fancy">
                   <span>PRODUCTS</span>
                 </h4>
+                <br />
+                <Link onMouseOver={e => {showMenuImage(menuimg5)}} to="/About"  className="leather"><h4 className="subtitle4 fancy">
+                  <span>ABOUT US</span>
+                </h4></Link>
                 <br />
                 <h4 onMouseOver={e => {showMenuImage(menuimg4)}} style={{cursor:"pointer"}} onClick={footerLink} className="subtitle5 fancy">
                   <span>CONTACT US</span>
