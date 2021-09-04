@@ -7,7 +7,7 @@ import { FaTimes } from "react-icons/fa";
 import logo from "../../assets/images/saichamois-logo.png";
 import goldrated from "../../assets/images/saichamois-goldrated.jpeg";
 import menuimg from "../../assets/images/naked-sheep.webp";
-import menuimg1 from "../../assets/images/antiviral-chamois.jpeg";
+import menuimg1 from "../../assets/images/contact-menu.jpeg";
 import menuimg2 from "../../assets/images/traditional-chamois.jpeg";
 import menuimg3 from "../../assets/images/naked-goat.webp";
 import menuimg4 from "../../assets/images/bavarian-deer.webp";
