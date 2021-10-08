@@ -53,7 +53,8 @@ function footer() {
                  </div>
               </div>  
             </div>
-                  <div className="d-flex justify-content-center footer-back col-7">
+                <div className="d-flex justify-content-center footer-back col-7">
+                  <div className="color-layer">
                   <Form className="form" onSubmit={e => {sendEmail(e)}}>
                     <Form.Group controlId="formBasicEmail">
                       <Form.Control type="text" placeholder="Full Name" className="input-field" name="name" />
@@ -64,6 +65,7 @@ function footer() {
                     <Button variant="dark" className="form-but" type="submit" value="Send Message">Submit</Button>
                   </Form>
                   </div>
+                </div>
             </div>
           </div>          
         </div>

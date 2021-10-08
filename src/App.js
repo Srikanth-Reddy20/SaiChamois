@@ -13,6 +13,7 @@ import ChamoisPage from "./Pages/ChamoisPage/ChamoisPage";
 import Landingsection1 from "./Components/Landing/Landingsection1";
 import LeatherPage from "./Pages/LeatherPage/LeatherPage";
 import AboutPage from "./Pages/AboutPage/AboutPage";
+import Timeline from "./Components/Timeline/Timeline";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/Chamois" component={ChamoisPage} />
             <Route path="/Leather" component={LeatherPage} />
             <Route path="/About" component={AboutPage} />
+            <Route path="/Timeline" component={Timeline} />
           </Switch>
         </HashRouter>
       

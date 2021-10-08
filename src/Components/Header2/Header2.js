@@ -67,7 +67,7 @@ function Header2() {
                   <span>TIMELINE</span>
                 </h4>
                 <br />
-                <h4 onMouseOver={e => {showMenuImage(menuimg)}} style={{cursor:"pointer"}} onClick={leathertypesLink} className="subtitle3 fancy">
+                <h4 onMouseOver={e => {showMenuImage(menuimg)}} to="/Timeline" className="subtitle3 fancy">
                   <span>LEATHER TYPES</span>
                 </h4>
                 <br />
