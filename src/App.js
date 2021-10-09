@@ -24,7 +24,6 @@ function App() {
             <Route path="/Chamois" component={ChamoisPage} />
             <Route path="/Leather" component={LeatherPage} />
             <Route path="/About" component={AboutPage} />
-            <Route path="/Timeline" component={Timeline} />
           </Switch>
         </HashRouter>
       

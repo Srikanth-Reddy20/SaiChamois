@@ -1,7 +1,7 @@
 import React from 'react'
-import "./Timeline.css";
+import "./Timeline2.css";
 
-function Timeline() {
+function Timeline2() {
     return (
         <>
             <div className="timeline-main">
@@ -41,4 +41,4 @@ function Timeline() {
     )
 }
 
-export default Timeline
+export default Timeline2

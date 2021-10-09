@@ -1,10 +1,12 @@
 import React from 'react'
-import Stepper from '../Stepper/Stepper'
+import Process from '../Process/Process'
+import Timeline2 from '../Timeline2/Timeline2'
 
 function Leathersection3(props) {
     return (
         <div style={props.style}>
-            <Stepper />
+            <Process />
+            <Timeline2 />
         </div>
     )
 }

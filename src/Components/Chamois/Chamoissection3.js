@@ -1,10 +1,12 @@
 import React from 'react'
-import Stepper2 from '../Stepper2/Stepper2'
+import Process from '../Process/Process'
+import Timeline from '../Timeline/Timeline'
 
 function Chamoissection3(props) {
     return (
         <div style={props.style}>
-            <Stepper2 />
+            <Process />
+            <Timeline />
         </div>
     )
 }
