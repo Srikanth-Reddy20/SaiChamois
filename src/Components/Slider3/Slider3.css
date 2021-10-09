@@ -5,9 +5,19 @@
   background-size: cover;
   position: relative;
 }
-
-
-
+.landing-heading{
+  font-size: 2rem;
+  position: absolute;
+  bottom: 2%;
+  left: 4%;
+  font-family: 'Arvo-Regular';
+  color: white;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.landing-heading span{
+  font-size: 6.5rem;
+}
 
 
 

@@ -121,7 +121,8 @@
     position: absolute;
     width: 115px;
     height: 125px;
-    background: #F4F4F4;
+    background: transparent;
+    border: 2px solid white;
     right: 0;
     top: 220px;
     left: 118px;
@@ -130,7 +131,8 @@
     position: absolute;
     width: 150px;
     height: 190px;
-    background: #F4F4F4;
+    background: transparent;
+    border: 2px solid white;
     top: 310px;
     left: 375px;
 }

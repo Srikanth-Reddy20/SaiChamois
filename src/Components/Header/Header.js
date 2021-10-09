@@ -51,7 +51,7 @@ function Header() {
           <div className="menu-row d-md-flex">
             <div className="menu-col1">
               <div className="menu-label">
-                <Link onMouseOver={e => {showMenuImage(menuimg2)}} to="/" className="home"><h4 className="subtitle1 fancy">
+                <Link onMouseOver={e => {showMenuImage(logo)}} to="/" className="home"><h4 className="subtitle1 fancy">
                   <span>HOME</span>
                 </h4></Link>
                 <br />

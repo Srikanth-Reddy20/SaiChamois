@@ -2,7 +2,7 @@
     color: blue;
 }
 .footer-container{
-    height: 70vh;
+    height: 60vh;
 }
 .contact-section{
     height: 100%;
@@ -49,9 +49,9 @@
     background: url("../../assets/images/saichamois-footer.jpeg");
     background-size: cover;
     padding: 8% 0;
-    height: 75vh;
+    height: 64vh;
     position: relative;
-    top: -5vh;
+    top: -4vh;
 }
 .color-layer{
     background-color: rgb(0 255 7 / 40%);
@@ -68,7 +68,7 @@
     top: 15%;
 }
 .address{
-    padding: 5% 0;
+    padding: 3% 0;
 }
 .btn-dark {
     width: 50%;

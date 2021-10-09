@@ -9,6 +9,7 @@ function Slider2() {
       <Container className="slider2-container p-0" fluid>
         <div className="d-md-flex">
           <Col className="slider2-image">
+          <div className="landing-heading">Speciality <br /><span>Leathers</span></div>
             <div className="bx">
               <div className="bx1">
                 EXQUISITE NATURAL NEWZEALAND FINISHED LEATHERS WITH PREMIUM INTERNATIONAL QUALITY
