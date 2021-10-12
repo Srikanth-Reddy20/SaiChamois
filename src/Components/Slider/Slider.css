@@ -8,12 +8,12 @@
   }
   
   .bg1 {
-    background: url("../../assets/images/traditional-chamois.jpeg");
+    background: url("../../assets/images/chamois.svg");
    height: 90vh;
     background-size: cover;
   }
   .bg2 {
-    background: url("../../assets/images/naked-sheep.webp");
+    background: url("../../assets/images/leather.svg");
    height: 90vh;
     background-size: cover;
   }
