@@ -13,6 +13,7 @@ function Footer2() {
          
               <div className="d-flex justify-content-center footer2-back col-12">
                 <div className="contact-vertical-text">CONTACT</div>
+                <div className="mobilecolor-layer">
                   <Form className="form">
                     <Form.Group controlId="formBasicEmail">
                       <Form.Control type="text" placeholder="Full Name" className="input-field"/>
@@ -23,6 +24,7 @@ function Footer2() {
                     <Button variant="dark" className="form-but">Submit</Button>
                   </Form>
                   </div>
+                </div>
             
               <div className="col-12 address2">
               <div className="d-flex align-content-center align-items-center 

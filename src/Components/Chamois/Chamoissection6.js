@@ -1,11 +1,11 @@
 import React from 'react'
-import Ourpartners from '../Ourpartners/Ourpartners'
+import Salesdistributor from '../Salesdistributor/Salesdistributor'
 import Partnercarousel from '../Partnercarousel/Partnercarousel'
 
 function Chamoissection6(props) {
     return (
         <div style={props.style}>
-            <Ourpartners />
+            <Salesdistributor />
             <Partnercarousel />
         </div>
     )

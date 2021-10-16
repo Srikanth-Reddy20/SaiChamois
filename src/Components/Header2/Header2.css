@@ -11,19 +11,19 @@
 .top-bar{
     text-align: center;
     background-color: white;
-    height: 10vh;
+    height: 12vh;
 }
 .icon{
-    width: auto;
-    height: 87%;
+    width: 14%;
+    height: auto;
 }
 .icon1{
-    width: auto;
-    height: 100%;
+    width: 19%;
+    height: auto;
 }
 .header-col{
     padding: 1%;
-    height: 10vh;
+    height: 12vh;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -148,6 +148,7 @@
     }
   }
 .top-bar-fixed{
+    height: 12vh;
     position: fixed;
     background-color: #fff;
     top: 0;

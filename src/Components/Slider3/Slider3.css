@@ -1,7 +1,7 @@
 .slider3-image{
   /* clip-path: polygon(0% 0%, 100% 0%, 55% 100%, 0% 100%); */
   background: url("../../assets/images/traditional-chamois.jpeg");
-  height: 90vh;
+  height: 88vh;
   background-size: cover;
   position: relative;
 }
@@ -19,6 +19,71 @@
   font-size: 6.5rem;
 }
 
-
-
-
+@media only screen and (max-width:1035px){
+  .landing-heading span{
+    font-size: 5.5rem;
+  }
+}
+@media only screen and (max-width:935px){
+  .landing-heading span{
+    font-size: 4.5rem;
+  }
+}
+@media only screen and (max-width:850px){
+  .landing-heading span{
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width:800px){
+  .landing-heading span{
+    font-size: 3.5rem;
+  }
+  .landing-heading{
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width:750px){
+  .landing-heading span{
+    font-size: 2.5rem;
+  }
+  .landing-heading{
+    font-size: 1.1rem;
+    bottom: 6%;
+  }
+}
+@media only screen and (max-width:665px){
+  .landing-heading span{
+    font-size: 4.5rem;
+  }
+  .landing-heading{
+    font-size: 1.8rem;
+    bottom: 35%;
+  }
+}
+@media only screen and (max-width:600px){
+  .landing-heading span{
+    font-size: 3.5rem;
+  }
+  .landing-heading{
+    font-size: 1.5rem;
+    bottom: 35%;
+  }
+}
+@media only screen and (max-width:400px){
+  .landing-heading span{
+    font-size: 3rem;
+  }
+  .landing-heading{
+    font-size: 1.1rem;
+    bottom: 35%;
+  }
+}
+@media only screen and (max-width:300px){
+  .landing-heading span{
+    font-size: 2.5rem;
+  }
+  .landing-heading{
+    font-size: 1rem;
+    bottom: 35%;
+  }
+}

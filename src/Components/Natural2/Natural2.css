@@ -7,7 +7,6 @@
   color: white;
   margin-bottom: 0px;
   padding: 2% 16%;
-  min-height: 20vh;
   height: auto;
 }
 @media only screen and (max-width:789px){
@@ -67,7 +66,11 @@
 .natural-container2{
     background: url("../../assets/images/chamois-natural.jpeg");
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     background-size: cover;
-    font-family: 'Arvo-Regular';
+    position: relative;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

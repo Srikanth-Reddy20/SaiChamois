@@ -12,7 +12,7 @@ function Slider3() {
             <div className="landing-heading">Speciality <br /><span>Chamois</span></div>
             <div className="bx">
               <div className="bx1">
-                PREMIUM CHAMOIS PRODUCED AND PROCESSED FROM NEW ZEALAND SKINS AND HIDES
+                PREMIUM CHAMOIS PRODUCED AND PROCESSED FROM NEWZEALAND SKINS AND HIDES
                 <img
                   src={Chaimage}
                   alt="upper-image"

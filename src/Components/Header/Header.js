@@ -10,7 +10,7 @@ import menuimg from "../../assets/images/naked-sheep.webp";
 import menuimg1 from "../../assets/images/contact-menu.jpeg";
 import menuimg2 from "../../assets/images/traditional-chamois.jpeg";
 import menuimg3 from "../../assets/images/naked-goat.webp";
-import menuimg4 from "../../assets/images/bavarian-deer.webp";
+import menuimg4 from "../../assets/images/traditional-chamois.jpeg";
 import menuimg5 from "../../assets/images/saichamois-footer.jpeg";
 import { Link } from "react-router-dom";
 
@@ -55,19 +55,20 @@ function Header() {
                   <span>HOME</span>
                 </h4></Link>
                 <br />
-                <Link onMouseOver={e => {showMenuImage(menuimg3)}} to="/Chamois" className="chamois"><h4 className="subtitle3 fancy">
-                  <span>CHAMOIS</span>
-                </h4></Link>
-                <br />
-                <Link onMouseOver={e => {showMenuImage(menuimg4)}} to="/Leather"  className="leather"><h4 className="subtitle4 fancy">
-                  <span>LEATHER</span>
-                </h4></Link>
-                <br />
-                <Link onMouseOver={e => {showMenuImage(menuimg5)}} to="/About"  className="leather"><h4 className="subtitle4 fancy">
+                <Link onMouseOver={e => {showMenuImage(menuimg1)}} to="/About"  className="leather"><h4 className="subtitle4 fancy">
                   <span>ABOUT US</span>
                 </h4></Link>
                 <br />
-                <h4 onMouseOver={e => {showMenuImage(menuimg1)}} style={{cursor:"pointer"}} onClick={footerLink} className="subtitle5 fancy contact">
+                <Link onMouseOver={e => {showMenuImage(menuimg4)}} to="/Chamois" className="chamois"><h4 className="subtitle3 fancy">
+                  <span>CHAMOIS</span>
+                </h4></Link>
+                <br />
+                <Link onMouseOver={e => {showMenuImage(menuimg3)}} to="/Leather"  className="leather"><h4 className="subtitle4 fancy">
+                  <span>LEATHER</span>
+                </h4></Link>
+                
+                <br />
+                <h4 onMouseOver={e => {showMenuImage(menuimg5)}} style={{cursor:"pointer"}} onClick={footerLink} className="subtitle5 fancy contact">
                   <span>CONTACT US</span>
                 </h4>
                 <br />

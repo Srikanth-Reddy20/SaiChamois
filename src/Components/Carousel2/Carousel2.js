@@ -27,14 +27,14 @@ function Carousel2() {
         <div style={{paddingRight:"2%"}}>
           <div className="image-head-div"><div className="image-heading" >TRADITIONAL CHAMOIS</div></div>
           <div className="slideWrapper">
-            <img src={traditional} alt=""  className="carousel-img" />
+            <img src={antiviral} alt=""  className="carousel-img" />
           </div>
           <div className="image-content">Traditional chamois is produced using New Zealand sheep skins, but we can also offer made from New Zealand Deer and Goat for special purposes.</div>
         </div>
         <div style={{paddingLeft:"2%"}}>
           <div className="image-head-div"><div className="image-heading" >ANTI-VIRAL <br/> CHAMOIS</div></div>
           <div className="slideWrapper">
-            <img src={antiviral} alt=""  className="carousel-img" />
+            <img src={traditional} alt=""  className="carousel-img" />
           </div>
           <div className="image-content">We've achieved anti-viral properties in our traditional chamois through high tech research and development implemented in our manufacturing process</div>
         </div>

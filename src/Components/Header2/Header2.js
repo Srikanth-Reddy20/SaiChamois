@@ -63,21 +63,22 @@ function Header2() {
                   <span>HOME</span>
                 </h4></Link>
                 <br />
+                <Link onMouseOver={e => {showMenuImage(menuimg5)}} to="/About"  className="leather"><h4 className="subtitle4 fancy">
+                  <span>ABOUT US</span>
+                </h4></Link>
+                <br />
                 <h4 onMouseOver={e => {showMenuImage(menuimg2)}} style={{cursor:"pointer"}} onClick={timelineLink} className="subtitle2 fancy">
                   <span>TIMELINE</span>
                 </h4>
                 <br />
-                <h4 onMouseOver={e => {showMenuImage(menuimg)}} to="/Timeline" className="subtitle3 fancy">
+                <h4 onMouseOver={e => {showMenuImage(menuimg)}} style={{cursor:"pointer"}} onClick={leathertypesLink} className="subtitle2 fancy">
                   <span>LEATHER TYPES</span>
                 </h4>
                 <br />
                 <h4 onMouseOver={e => {showMenuImage(menuimg3)}} style={{cursor:"pointer"}} onClick={productsLink} className="subtitle4 fancy">
                   <span>PRODUCTS</span>
                 </h4>
-                <br />
-                <Link onMouseOver={e => {showMenuImage(menuimg5)}} to="/About"  className="leather"><h4 className="subtitle4 fancy">
-                  <span>ABOUT US</span>
-                </h4></Link>
+                
                 <br />
                 <h4 onMouseOver={e => {showMenuImage(menuimg4)}} style={{cursor:"pointer"}} onClick={footerLink} className="subtitle5 fancy">
                   <span>CONTACT US</span>
