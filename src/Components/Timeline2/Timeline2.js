@@ -6,7 +6,7 @@ function Timeline2() {
         <>
             {
         window.screen.width > 800 &&
-            <div className="timeline-main" id="timeline">
+            <div className="timeline-main" id="timeline2">
                 <div className="timeline-section">
                     <div className="left-boxes">
                         <div className="leftbox1">
@@ -39,7 +39,7 @@ function Timeline2() {
             </div>
 }
 { window.screen.width < 800 && 
-    <div className="timeline-main" id="timeline">
+    <div className="timeline-main" id="timeline2">
     <div className="timeline-section">
                 <div className="mobilevertical-line">
                         <span className="mobiletimeline-dot"></span><span className="mobiletimeline-dot"></span>

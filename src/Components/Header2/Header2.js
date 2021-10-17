@@ -19,7 +19,7 @@ function Header2() {
     document.getElementById("contact").scrollIntoView();
   };
   const timelineLink = () => {
-    document.getElementById("timeline").scrollIntoView();
+    document.getElementById("timeline2").scrollIntoView();
   };
   const leathertypesLink = () => {
     document.getElementById("leathertypes").scrollIntoView();
@@ -59,11 +59,11 @@ function Header2() {
           <div className="menu-row d-md-flex">
             <div className="menu-col1">
               <div className="menu-label">
-                <Link onMouseOver={e => {showMenuImage(menuimg1)}} to="/"><h4 className="subtitle1 fancy">
+                <Link onMouseOver={e => {showMenuImage(logo)}} to="/"><h4 className="subtitle1 fancy">
                   <span>HOME</span>
                 </h4></Link>
                 <br />
-                <Link onMouseOver={e => {showMenuImage(menuimg5)}} to="/About"  className="leather"><h4 className="subtitle4 fancy">
+                <Link onMouseOver={e => {showMenuImage(menuimg4)}} to="/About"  className="leather"><h4 className="subtitle4 fancy">
                   <span>ABOUT US</span>
                 </h4></Link>
                 <br />
@@ -80,7 +80,7 @@ function Header2() {
                 </h4>
                 
                 <br />
-                <h4 onMouseOver={e => {showMenuImage(menuimg4)}} style={{cursor:"pointer"}} onClick={footerLink} className="subtitle5 fancy">
+                <h4 onMouseOver={e => {showMenuImage(menuimg5)}} style={{cursor:"pointer"}} onClick={footerLink} className="subtitle5 fancy">
                   <span>CONTACT US</span>
                 </h4>
                 <br />

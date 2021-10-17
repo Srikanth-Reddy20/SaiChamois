@@ -19,6 +19,7 @@
 .left-boxes{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .leftbox1{
     padding: 10px 15px;
@@ -233,7 +234,7 @@
 }
 .mobilevertical-line{
     border-left: 1px solid grey;
-    height: 78vh;
+    height: 89vh;
     width: 0px;
     margin: 2% 5%;
 }
@@ -250,12 +251,17 @@
 }
 
 
-/* @media only screen and (max-width:2560px){
+
+
+
+
+@media only screen and (min-width:1020px){
     .timeline-section {
         justify-content: center;
     }
     .timeline-dot {
-        margin-bottom: 125px;
+        margin-bottom: 13px;
+        margin-top: 50px;
     }
     .rightbox1::after {
         top: 28%;
@@ -267,13 +273,22 @@
         top: 28%;
     }
     .rightbox1{
-        margin: 23% 8%;
+        margin: 5% 8%;
+    }
+    .leftbox1::after {
+        top: 28%;
+    }
+    .leftbox1{
+        margin-top: 18%;
     }
     .leftbox2::after {
         top: 28%;
     }
     .leftbox2{
-        margin: 24% 8%;
+        margin: 2% 8%;
+    }
+    .rightbox2 {
+        margin: 4% 8%;
     }
     .rightbox3{
         margin: 9% 8%;
@@ -281,9 +296,12 @@
     .rightbox3::after {
         top: 28%;
     }
+    .vertical-line{
+        height: 64vh;
+    }
 }
 
-@media only screen and (max-width:1440px){
+@media only screen and (min-width:1435px){
     .timeline-section {
         justify-content: center;
     }
@@ -300,19 +318,19 @@
         top: 28%;
     }
     .rightbox1{
-        margin: 23% 8%;
+        margin: 6% 8%;
     }
     .leftbox1::after {
         top: 28%;
     }
     .leftbox1{
-        margin-top: 25%;
+        margin-top: 20%;
     }
     .leftbox2::after {
         top: 28%;
     }
     .leftbox2{
-        margin: 10% 8%;
+        margin: 2% 8%;
     }
     .rightbox3{
         margin: 9% 8%;
@@ -321,16 +339,17 @@
         top: 28%;
     }
     .vertical-line{
-        height: 70vh;
+        height: 47vh;
     }
 }
 
-@media only screen and (max-width:1024px){
+
+@media only screen and (min-width:2555px){
     .timeline-section {
         justify-content: center;
     }
     .timeline-dot {
-        margin-bottom: 20px;
+        margin-bottom: 27px;
     }
     .rightbox1::after {
         top: 28%;
@@ -342,19 +361,19 @@
         top: 28%;
     }
     .rightbox1{
-        margin: 23% 8%;
+        margin: 6% 8%;
     }
     .leftbox1::after {
         top: 28%;
     }
     .leftbox1{
-        margin-top: 25%;
+        margin-top: 14%;
     }
     .leftbox2::after {
         top: 28%;
     }
     .leftbox2{
-        margin: 10% 8%;
+        margin: 2% 8%;
     }
     .rightbox3{
         margin: 9% 8%;
@@ -363,9 +382,9 @@
         top: 28%;
     }
     .vertical-line{
-        height: 70vh;
+        height: 29vh;
     }
-} */
+}
 
 
 @media only screen and (max-width:663px){
@@ -420,7 +439,7 @@
         margin-bottom: 54px;
     }
     .mobilevertical-line {
-        height: 85vh;
+        height: 96vh;
     }
 }
 @media only screen and (max-width:400px){
@@ -484,7 +503,7 @@
         margin-bottom: 47px;
     }
     .mobilevertical-line {
-        height: 73vh;
+        height: 83vh;
     }
 }
 
@@ -503,7 +522,7 @@
         margin-bottom: 48px;
     }
     .mobilevertical-line {
-        height: 80vh;
+        height: 90vh;
     } 
 }
 

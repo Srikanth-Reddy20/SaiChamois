@@ -58,12 +58,7 @@
     }
   }
 
-  @media only screen and (min-width:1400px) and (max-width:2000px){
-    .natural-para{
-        font-size: 35px;
-        padding: 82px 27%;
-    }
-  }
+
 .natural-container{
     background: url("../../assets/images/chamois-natural.jpeg");
     background-repeat: no-repeat;

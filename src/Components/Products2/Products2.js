@@ -10,7 +10,7 @@ function Products2() {
                 OUR PRODUCTS
             </div>
         </div>
-      <div className="data-slide2" id="products">
+      <div className="data-slide2" id="products2">
         <div className="circle1"></div>
         <div className="circle2"></div>
         <div className="circle3"></div>

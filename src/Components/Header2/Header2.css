@@ -14,11 +14,11 @@
     height: 12vh;
 }
 .icon{
-    width: 14%;
+    width: 12%;
     height: auto;
 }
 .icon1{
-    width: 19%;
+    width: 17%;
     height: auto;
 }
 .header-col{
@@ -28,6 +28,8 @@
     align-items: center;
     display: flex;
 }
+
+
 @media only screen and (min-width:1400px) and (max-width:2000px){
     .icon{
         font-size: 65px;
@@ -107,7 +109,7 @@
 }
 .menu-image{
     width: 300px;
-    height: 300px;
+    height: 280px;
     object-fit: cover;
     margin-right: 12%;
     margin-top: 15%;
@@ -162,6 +164,33 @@
     margin-right: 2px;
 }
 
+@media only screen and (max-width:2570px){
+    .header-leftsquare{
+        top: 24%;
+        left: 32%;
+    }
+    .header-rightsquare{
+        top: 32%;
+        left: 47%;
+    }
+}
+
+@media only screen and (max-width:1450px){
+    .header-leftsquare{
+        left: 200px;
+    }
+    .header-rightsquare{
+        left: 460px;
+    }
+}
+@media only screen and (max-width:1030px){
+    .header-leftsquare{
+        left: 80px;
+    }
+    .header-rightsquare{
+        left: 360px;
+    }
+}
 @media only screen and (max-width:1200px){
     .header-row{
         margin-right: 2px;
@@ -187,6 +216,49 @@
     position: relative;  
   }
   
+  @media only screen and (max-width:800px){
+    .icon {
+        width: 17%;
+        height: auto;
+    }
+    .icon1 {
+        width: 22%;
+        height: auto;
+    }
+    .header-leftsquare{
+        left: 30px;
+    }
+    .header-rightsquare{
+        top: 290px;
+        left: 280px;
+    }
+  }
+@media only screen and (max-width:767px){
+    .menu-col1 {
+     width: 100vw;
+     height: 50vh;
+    }
+    .menu-col2 {
+     width: 100vw;
+     height: 50vh;
+     }
+     .menu-label{
+      margin-top: 8%;
+      margin-left: 40%;
+      line-height: 2rem;
+      padding-top: 15%;
+    }
+    .menu-image {
+        margin-right: 0%;
+        margin-top: 1%;
+    }
+        .header-leftsquare{
+            display: none;
+        }
+        .header-rightsquare{
+            display: none;
+        }
+  }
   
   @media only screen and (max-width:700px){
     .fancy {
@@ -208,22 +280,41 @@
       left: 30px;
   }
 }
-@media only screen and (max-width:767px){
-    .menu-col1 {
-     width: 100vw;
-     height: 50vh;
+
+  @media only screen and (max-width:500px){
+    .icon {
+        width: 30%;
+        height: auto;
     }
-    .menu-col2 {
-     width: 100vw;
-     height: 50vh;
-     }
-     .menu-label{
+    .icon1 {
+        width: 41%;
+        height: auto;
+    }
+  }
+
+  @media only screen and (max-width:380px){
+    .icon {
+        width: 35%;
+        height: auto;
+    }
+    .icon1 {
+        width: 45%;
+        height: auto;
+    }
+    .menu-label{
         margin-top: 8%;
         margin-left: 40%;
-        padding-top: 8%;
+        line-height: 2rem;
+        padding-top: 20%;
+      }
+  }
+  @media only screen and (max-width:325px){
+    .icon {
+        width: 45%;
+        height: auto;
     }
-    .menu-image {
-        margin-right: 0%;
-        margin-top: 1%;
+    .icon1 {
+        width: 55%;
+        height: auto;
     }
   }
