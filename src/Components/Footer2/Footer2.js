@@ -1,29 +1,45 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import emailjs from 'emailjs-com';
 import { Container, Row, Col, Button, Form} from 'react-bootstrap';
 import './Footer2.css';
 import { FaTelegramPlane, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Footer2() {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+  emailjs.sendForm('service_g4cxtms', 'template_9fbzfb8', e.target, 'user_ZzaKmQDl81SHC8QRn0GWf')
+    .then((result) => {
+        alert('Your message has been sent.');
+    }, (error) => {
+        alert(`Error: ${error.message}`);
+    });
+    e.target.reset();
+  }
     return (
         <>
-            <Container className="f2-container" fluid>
+            <Container className="f2-container" fluid style={{
+                scrollSnapAlign: "end",
+                scrollSnapStop: "normal"
+            }}>
             <div className="f2-div" >
          
               <div className="d-flex justify-content-center footer2-back col-12">
                 <div className="contact-vertical-text">CONTACT</div>
-                <div className="mobilecolor-layer">
-                  <Form className="form">
-                    <Form.Group controlId="formBasicEmail">
-                      <Form.Control type="text" placeholder="Full Name" className="input-field"/>
-                      <Form.Control type="email" placeholder="Email" className="input-field"/>
-                      <Form.Control type="number" placeholder="Phone" className="input-field"/>
-                      <Form.Control as="textarea" rows={3} placeholder="Message" className="input-field"/>
-                    </Form.Group>
-                    <Button variant="dark" className="form-but">Submit</Button>
-                  </Form>
+                <div className="color-layer">
                   </div>
+                  <Form className="form" onSubmit={e => {sendEmail(e)}}>
+                    <Form.Group controlId="formBasicEmail">
+                      <Form.Control type="text" placeholder="Full Name" className="input-field" name="name" />
+                      <Form.Control type="email" placeholder="Email" className="input-field" name="email" />
+                      <Form.Control type="number" placeholder="Phone" className="input-field" name="phone" />
+                      <Form.Control as="textarea" rows={3} placeholder="Message" className="input-field" name="message" />
+                    </Form.Group>
+                    <Button variant="dark" className="form-but" type="submit" value="Send Message">Submit</Button>
+                  </Form>
                 </div>
             
               <div className="col-12 address2">

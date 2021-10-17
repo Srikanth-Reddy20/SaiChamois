@@ -6,6 +6,7 @@ import Footer from '../../Components/Footer/Footer'
 import './LandingPage.css';
 import Landingsection1 from '../../Components/Landing/Landingsection1'
 import Landingsection2 from '../../Components/Landing/Landingsection2'
+import Landingsection3 from '../../Components/Landing/Landingsection3'
 
 function LandingPage() {
     return (
@@ -17,6 +18,10 @@ function LandingPage() {
                 scrollSnapStop: "normal"
             }} />
           <Landingsection2 style={{
+                scrollSnapAlign: "start",
+                scrollSnapStop: "normal"
+            }} />
+          <Landingsection3 style={{
                 scrollSnapAlign: "start",
                 scrollSnapStop: "normal"
             }} />

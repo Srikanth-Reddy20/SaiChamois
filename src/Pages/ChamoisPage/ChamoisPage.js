@@ -39,7 +39,7 @@ function ChamoisPage() {
                 scrollSnapStop: "normal"
             }} />
             <Chamoissection7 style={{
-                scrollSnapAlign: "end",
+                scrollSnapAlign: "start",
                 scrollSnapStop: "normal"
             }} />
 

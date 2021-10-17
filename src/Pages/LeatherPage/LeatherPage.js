@@ -38,7 +38,7 @@ function LeatherPage() {
                 scrollSnapStop: "normal"
             }} />
             <Leathersection7 style={{
-                scrollSnapAlign: "end",
+                scrollSnapAlign: "start",
                 scrollSnapStop: "normal"
             }} />
 

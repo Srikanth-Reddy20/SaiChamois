@@ -2,12 +2,12 @@ import Natural from '../Natural/Natural'
 import Footer from '../Footer/Footer'
 import React from 'react'
 
-function Landingsection2(props) {
+function Landingsection3(props) {
     return (
         <div style={props.style}>
-            <Natural />
+            <Footer />
         </div>
     )
 }
 
-export default Landingsection2
+export default Landingsection3
