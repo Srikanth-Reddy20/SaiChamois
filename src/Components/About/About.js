@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import rightimg from '../../assets/images/naked-sheep.webp'
+import rightimg from '../../assets/images/contact-menu.jpeg'
 import leftimg from '../../assets/images/naked-deer.webp'
 import chamoislabel from '../../assets/images/Cha2.svg'
 import leatherlabel from '../../assets/images/Lea2.svg'
