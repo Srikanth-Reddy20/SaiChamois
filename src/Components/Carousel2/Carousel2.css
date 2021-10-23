@@ -15,9 +15,9 @@
     left: 0;
     z-index: -1;
     font-family: arvo;
-    margin: 0px;
     letter-spacing: 10px;
-    font-size: 4rem;
+    font-size: 2rem;
+    margin: 3% auto;
     -webkit-text-fill-color: black;
     -webkit-text-stroke-width: 2px;
     text-align: center;
@@ -30,24 +30,37 @@
 
   .image-content{
     font-family: 'Arvo-Regular';
-    font-size: 22px;
+    font-size: 14px;
     text-align: justify;
-    padding-top: 10%;
+    padding-top: 5%;
+  }
+  .image-details{
+    font-family: 'Arvo-Regular';
+    font-size: 12px;
+    text-align: justify;
+    padding-top: 3%;
+  }
+  .image-uses{
+    font-family: 'Arvo-Regular';
+    font-weight: bold;
+    font-size: 13px;
+    text-align: justify;
+    padding-top: 3%;
   }
 
   .carousel-img{
-    width: 380px;
-    height: 250px;
+    width: 350px;
+    height: 150px;
   }
   
 
   @media only screen and (max-width:1200px){
       .image-content{
-        font-size: 19px;
+        font-size: 14px;
         padding-top: 5%;
       }
       .image-heading{
-        font-size: 3rem;
+        font-size: 2rem;
       }
   }
 
@@ -69,6 +82,12 @@
     left: 10%;
     position: relative;
   }
+  .image-details{
+    width: 80%;
+    left: 10%;
+    position: relative;
+  }
+
 }
 
 
@@ -124,7 +143,15 @@
         font-size: 1.2rem;
       }
       .image-content{
-        font-size: 10px;
+        font-size: 63%;
+      }
+      .image-details{
+        font-size: 63%;
+        padding-top: 0%;
+      }
+      .image-uses{
+        font-size: 100%;
+        padding-top: 0%;
       }
   }
 
@@ -139,5 +166,8 @@
       }
       .image-content{
         font-size: 8px;
+      }
+      .image-details{
+        font-size: 50%;
       }
   }

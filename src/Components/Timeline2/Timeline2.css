@@ -279,7 +279,7 @@
         top: 28%;
     }
     .leftbox1{
-        margin-top: 18%;
+        margin-top: 23%;
     }
     .leftbox2::after {
         top: 28%;
@@ -420,29 +420,57 @@
 
 }
 @media only screen and (max-width:430px){
+    .mobilebox1::after, .mobilebox2::after, .mobilebox3::after, .mobilebox4::after {
+        content: " ";
+        position: absolute;
+        left: -19px;
+        top: 24%;
+        border-top: 20px solid transparent;
+        border-right: 20px solid white;
+        border-left: none;
+        border-bottom: 20px solid transparent;
+    }
+    .mobilebox-number {
+        font-size: 15px;
+        color: green;
+    }
     .mobilebox1{
-        font-size: 90%;
+        font-size: 75%;
+        padding: 8px 8px;
+    padding-bottom: 8px;
     }
     .mobilebox2{
-        font-size: 90%;
+        font-size: 75%;
+        padding: 8px 8px;
+    padding-bottom: 8px;
     }
     .mobilebox3{
-        font-size: 90%;
+        font-size: 75%;
+        padding: 8px 8px;
+    padding-bottom: 8px;
     }
     .mobilebox4{
-        font-size: 90%;
+        font-size: 75%;
+        padding: 8px 8px;
+    padding-bottom: 8px;
     }
     .mobilebox5{
-        font-size: 90%;
+        font-size: 75%;
+        padding: 8px 8px;
+    padding-bottom: 8px;
     }
     .mobiletimeline-dot {
-        margin-bottom: 54px;
+        margin-bottom: 32px;
+        margin-top: 35px;
+        height: 20px;
+    width: 20px;
+    left: -10px;
     }
     .mobilevertical-line {
-        height: 96vh;
+        height: 62vh;
     }
 }
-@media only screen and (max-width:400px){
+/* @media only screen and (max-width:400px){
     .mobilebox1{
         margin: 3% 7%;
     }
@@ -460,8 +488,8 @@
         margin: 3% 7%;
     }
     
-}
-@media only screen and (max-width:394px){
+} */
+/* @media only screen and (max-width:394px){
     .mobiletimeline-dot {
         margin-bottom: 66px;
     }
@@ -505,8 +533,8 @@
     .mobilevertical-line {
         height: 83vh;
     }
-}
-
+} */
+/* 
 @media only screen and (max-width:357px){
     .mobiletimeline-dot {
         margin-top: 60px;
@@ -524,5 +552,33 @@
     .mobilevertical-line {
         height: 90vh;
     } 
-}
+} */
 
+@media only screen and (max-width:330px){
+    .mobilebox1::after, .mobilebox2::after, .mobilebox3::after, .mobilebox4::after {
+        content: " ";
+        position: absolute;
+        left: -19px;
+        top: 24%;
+        border-top: 20px solid transparent;
+        border-right: 20px solid white;
+        border-left: none;
+        border-bottom: 20px solid transparent;
+    }
+    .mobilebox-number {
+        font-size: 15px;
+        color: green;
+    }
+    .mobilebox1,.mobilebox2, .mobilebox3,.mobilebox4{
+        font-size: 70%;
+        padding: 8px 8px;
+    padding-bottom: 8px;
+    }
+    .mobiletimeline-dot {
+        margin-bottom: 36px;
+    margin-top: 37px;
+    }
+    .mobilevertical-line {
+        height: 65vh;
+    }
+}

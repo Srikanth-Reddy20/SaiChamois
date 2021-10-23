@@ -2,7 +2,7 @@ import React from 'react'
 import './Carousel2.css';
 import ImageSlider2 from '../ImageSlider2'
 import traditional from '../../assets/images/traditional-chamois.webp'
-import antiviral from '../../assets/images/naked-sheep.webp'
+import antiviral from '../../assets/images/traditional-chamois.webp'
 import { Container } from 'react-bootstrap';
 
 function Carousel2() {

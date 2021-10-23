@@ -52,7 +52,7 @@
   color: white;
   align-items: center;
   flex-direction: column;
-  top: 270px;
+  top: 30%;
 }
 
 @media only screen and (max-width:900px){
@@ -79,7 +79,12 @@ color: white ;
 .slidetype .image-content{
   color: white ;
   }
-
+  .slidetype .image-details{
+    color: white ;
+    }
+    .slidetype .image-uses{
+      color: white ;
+      }
 
 .image-head-div{
   top: 0;
