@@ -13,7 +13,7 @@ function ChamoisPage() {
         <div>
              
         <Header3 />
-        <div style ={{scrollSnapType: "y mandatory", height:"88vh", overflow:"auto"}}>
+        <div style ={{scrollSnapType: "y mandatory", height:"83vh", overflowX:"hidden"}}>
             <Chamoissection1 style={{
                 scrollSnapAlign: "start",
                 scrollSnapStop: "normal"

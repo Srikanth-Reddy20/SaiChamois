@@ -11,19 +11,19 @@
 .top-bar{
     text-align: center;
     background-color: white;
-    height: 12vh;
+    height: 17vh;
 }
 .icon{
-    width: 12%;
+    width: 20%;
     height: auto;
 }
 .icon1{
-    width: 17%;
+    width: 25%;
     height: auto;
 }
 .header-col{
     padding: 1%;
-    height: 12vh;
+    height: 17vh;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -218,11 +218,11 @@
   
   @media only screen and (max-width:800px){
     .icon {
-        width: 17%;
+        width: 24%;
         height: auto;
     }
     .icon1 {
-        width: 22%;
+        width: 32%;
         height: auto;
     }
     .header-leftsquare{
@@ -283,22 +283,22 @@
 
   @media only screen and (max-width:500px){
     .icon {
-        width: 30%;
+        width: 45%;
         height: auto;
     }
     .icon1 {
-        width: 41%;
+        width: 55%;
         height: auto;
     }
   }
 
   @media only screen and (max-width:380px){
     .icon {
-        width: 35%;
+        width: 50%;
         height: auto;
     }
     .icon1 {
-        width: 45%;
+        width: 63%;
         height: auto;
     }
     .menu-label{
@@ -310,11 +310,11 @@
   }
   @media only screen and (max-width:325px){
     .icon {
-        width: 45%;
+        width: 60%;
         height: auto;
     }
     .icon1 {
-        width: 55%;
+        width: 76%;
         height: auto;
     }
   }

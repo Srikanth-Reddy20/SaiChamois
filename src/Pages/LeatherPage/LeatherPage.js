@@ -12,7 +12,7 @@ function LeatherPage() {
     return (
         <div>
         <Header2 />
-        <div style ={{scrollSnapType: "y mandatory", height:"88vh", overflow:"auto"}}>
+        <div style ={{scrollSnapType: "y mandatory", height:"83vh", overflowX:"hidden"}}>
             <Leathersection1 style={{
                 scrollSnapAlign: "start",
                 scrollSnapStop: "normal"
