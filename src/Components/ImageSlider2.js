@@ -64,6 +64,8 @@ const ImageSlider2 = ({ images, slidesToShow = 3 }) => {
             {image.code ? image.code : <img src={image.src} alt={image.alt}  className="carousel-img" />}
           </div>
           <div className="image-content">{image.content}</div>
+          <div className="image-details">{image.details}<br /><br />
+          <span className="image-uses">{image.uses}</span></div>
         </div>
       );
     }

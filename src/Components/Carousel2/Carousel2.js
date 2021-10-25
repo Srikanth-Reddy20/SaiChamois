@@ -12,6 +12,8 @@ function Carousel2() {
           src: "../../assets/images/traditional-chamois.webp",
           alt: "Placeholder image",
           head: "TRADITIONAL CHAMOIS",
+          details: "SIZE: Dependent on species, COLOUR:  Natural Gold, THICKNESS: 0.5-1.8 mm, SUEDE, CAN BE CUT & RETAIL PACKAGED",
+          uses: "USES: Shirt, Hand-glove, Hand-bag, Shoe",
           content: "Traditional chamois is produced using New Zealand sheep skins, but we can also offer made from New Zealand Deer and Goat for special purposes. ",
         },
         {
@@ -19,6 +21,8 @@ function Carousel2() {
           src: "../../assets/images/naked-sheep.webp",
           alt: "Placeholder image",
           head: "ANTI VIRAL CHAMOIS",
+          details: "SIZE: 10-12sf, COLOUR: All colours possible, THICKNESS: 0.5-1.8 mm, NAPPA & SUEDE",
+          uses: "USES: Shirt, Hand-glove, Hand-bag, Shoe",
           content: "We've achieved anti-viral properties in our traditional chamois through high tech research and development implemented in our manufacturing process",
         }
       ];
@@ -30,6 +34,8 @@ function Carousel2() {
             <img src={antiviral} alt=""  className="carousel-img" />
           </div>
           <div className="image-content">Traditional chamois is produced using New Zealand sheep skins, but we can also offer made from New Zealand Deer and Goat for special purposes.</div>
+          <div className="image-details">SIZE: Dependent on species, COLOUR:  Natural Gold, THICKNESS: 0.5-1.8 mm, SUEDE, CAN BE CUT and RETAIL PACKAGED<br /><br />
+          <span className="image-uses">USES: Shirt, Hand-glove, Hand-bag, Shoe</span></div>
         </div>
         <div style={{paddingLeft:"2%"}}>
           <div className="image-head-div"><div className="image-heading" >ANTI-VIRAL <br/> CHAMOIS</div></div>
@@ -37,6 +43,8 @@ function Carousel2() {
             <img src={traditional} alt=""  className="carousel-img" />
           </div>
           <div className="image-content">We've achieved anti-viral properties in our traditional chamois through high tech research and development implemented in our manufacturing process</div>
+          <div className="image-details">SIZE: Dependent on species, COLOUR:  Natural Gold, THICKNESS: 0.5-1.8 mm, SUEDE, CAN BE CUT and RETAIL PACKAGED<br /><br />
+          <span className="image-uses">USES: Shirt, Hand-glove, Hand-bag, Shoe</span></div>
         </div>
       </div> 
     )
