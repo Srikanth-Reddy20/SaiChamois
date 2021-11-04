@@ -67,7 +67,10 @@ const ImageSlider = ({ images, slidesToShow = 3 }) => {
           </div>
           <div className="image-content">{image.content}</div>
           <div className="image-details">{image.details}<br /><br />
-          <span className="image-uses">{image.uses}</span></div>
+          <img  src={image.uses1} alt={image.alt} />
+          <img  src={image.uses1} alt={image.alt} />
+          <img  src={image.uses1} alt={image.alt} />
+          </div>
           
         </div>
       );

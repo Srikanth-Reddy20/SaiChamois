@@ -13,7 +13,9 @@ function Carousel() {
           alt: "Placeholder image",
           head: "NAKED DEER",
           details: "SIZE: 10-12sf, COLOUR: All colours possible, THICKNESS: 0.5-1.8 mm, NAPPA & SUEDE",
-          uses: "../../assets/images/about_Leather.png, /assets/images/Shoe.webp, /assets/images/Glove.webp, /assets/images/Glove.webp",
+          uses1: "/assets/images/Shoe.webp",
+          uses2: "/assets/images/Jacket.webp",
+          uses3: "/assets/images/Glove",
           content: "Farmed Deer leather is prepared with a fine grain character and luxurious silky soft feel, well suited for a full range of leather goods; garments, gloves, shoes and bags.",
         },
         {
