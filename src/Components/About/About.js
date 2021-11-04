@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import rightimg from '../../assets/images/contact-menu.jpeg'
-import leftimg from '../../assets/images/naked-deer.webp'
+import leftimg from '../../assets/images/about_Leather.png'
 import chamoislabel from '../../assets/images/Cha2.svg'
 import leatherlabel from '../../assets/images/Lea2.svg'
 import sideimg1 from '../../assets/images/saichamois-goldrated.jpeg'
