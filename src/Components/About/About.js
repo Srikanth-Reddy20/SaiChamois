@@ -9,7 +9,7 @@ import sideimg2 from '../../assets/images/saichamois-logo.png'
 
 function About() {
     return (
-        <>
+    <>
             <div className="about-slide">
                 <h1 className="about-title"><span className="title-span">Welcome to</span><br />
                 Sai <br/> Chamois<span className="title-span">INC.</span></h1>

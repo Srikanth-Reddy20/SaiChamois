@@ -5,7 +5,7 @@ import Footer from '../../Components/Footer/Footer'
 
 function AboutPage() {
     return (
-        <div>
+        <div style ={{overflowX:"hidden"}}>
             <Header />
             <About />
             <Footer />
